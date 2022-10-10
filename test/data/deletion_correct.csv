@@ -1,0 +1,7 @@
+Name|OSM tag|OSM tag proposal|AccessibleMaps Categories|AccessibleMaps Entities|AccessibleMaps Property|AccessibleMaps Sub-Property|A11yJSON tag|A11yJSON property
+||||||||
+(health) clinic or infirmary or doctor|amenity=clinic, amenity=doctors, amenity=hospital, healthcare=clinic, healthcare=doctor, healthcare=hospital, healthcare=yes||Facility daily needs|Services|type [1]|[health] clinic or infirmary or doctor||PlaceInfo#category
+3 levels above ground levels in a building|building:levels=3|||||||
+3 levels space between ground level and bottom level of building|building:min_level=3|||||||
+3 levels space between roof of part of building and top level of building|building:max_level=3|||||||
+a bioreactor for the production of biogas from biomas|building=digester|||||||

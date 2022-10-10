@@ -1,0 +1,38 @@
+Name|Fehler|Korrektur
+3 levels space between roof of part of building and top level of building|angegeb. OSM-Tag n. vorhanden|"Verschiebung des Tags zu ""OSM-Tag proposal"""
+building constructed as a digester|"doppelt ""a bioreactor for the production of biogas from biomas"""|Loeschung der Zeile
+free-standing residential building|"doppelt ""detached house"""|Loeschung der Zeile
+bungalow|"doppelt ""holiday cottage"""|Loeschung der Zeile
+entrance of building|"doppelt ""entrance of a building"""|Loeschung der Zeile
+outdoor|"doppelt ""feature substantially located outside"""|Loeschung der Zeile und Zusammenführung der Einträge zu weiteren Attributen
+tunnel passage|"doppelt ""goes through/under a building"""|"Loeschung und Ergänzung ""tunnel passage zu anderem Eintrag"""
+wall built to protect land along the coast from erosion and flooding from the sea|"Orthographie ""wall=seawell"" OSM-Tag"|"zu ""wall=seawall"""
+area that is usually enclosed by walls or buildings|"doppelt ""yard of building"""|"Loeschung der Zeile und Zusammenführung mit ""yard ..."""
+attention fields in front of doorways|"doppelt ""attention fields in front of doors: yes, function(s): ... / no"""|Loeschung der Zeile
+attention fields in front of doors: yes, function(s): ... / no|"vorgeschlagene Tags beinhaltet Variante nur für ""yes"""|"Ergänzung der Einträge bei ""OSM tag proposal"" um ""attention_field=no"" und ""attention_field=user_defined"""
+Bluetooth|"inkludiert in ""Bluetooth, NFC or QR beacon for indoor positioning"""|Loeschung der Zeile
+corridor inside a building|doppelt 'corridor'|Loeschung der Zeile
+door threshold|"doppelt ""door threshold exists"""|Loeschung der Zeile
+fire extinguisher is an active fire protection device used to extinguish or control small fires, often in emergency situations|"doppelt ""fire extinguisher"""|Loeschung der Zeile
+Is wheelchair accessible [1]|"doppelt ""Is wheelchair accessible"""|Loeschung der Zeile
+not accessible for blind persons|"doppelt ""no access for blind persons"""|"Loeschung und Zusammenlegung der OSM-Tags bei ""no access for blind persons"""
+not inside the building itself|"doppelt ""tunnel passage goes through/under a building"""|Loeschung der Zeile
+often uneven|"doppelt ""earth, prone to erosion"""|"Loeschung der Zeile und Erweiterung des gedoppelten Features zu ""earth, prone to erosion and often uneven"""
+installations|"doppelt ""pipe or tube installation room"""|Loeschung der Zeile
+and handling advertising|"doppelt ""service-based business dedicated to creating, planning, and handling advertising"""|Loeschung der Zeile
+planning|"doppelt ""service-based business dedicated to creating, planning, and handling advertising"""|Loeschung der Zeile
+ramp with handrail exists|"doppelt ""ramp with handrail"""|Loeschung der Zeile
+room containing a cash point [1]|"doppelt ""room containing a cash point"""|Loeschung der Zeile
+sign written in raised text|"doppelt ""sign with raised text"""|Loeschung der Zeile
+stairs in field of attention|"doppelt ""stairs exist in field of attention"""|Loeschung der Zeile
+The door is automatic or always open [1]|"doppelt ""The door is automatic or always open"""|Loeschung der Zeile
+the letters are in Braille (6 dots) [1]|"doppelt ""the letters are in Braille (6 dots)"|Loeschung der Zeile
+the letters are in Braille (6 dots) [2]|"doppelt ""the letters are in Braille (6 dots)"|Loeschung der Zeile
+the letters are in Braille (6 dots) [3]|"doppelt ""the letters are in Braille (6 dots)"|Loeschung der Zeile
+the letters are in Braille (6 dots) [4]|"doppelt ""the letters are in Braille (6 dots)"|Loeschung der Zeile
+type of stairs|"inkludiert in ""type / shape of stairs"""|Loeschung der Zeile
+water closet height [1]|"doppelt ""water closet height"""|Loeschung der Zeile
+you can expect to drive around 15km/h|"doppelt ""realistic speed estimate"""|Loeschung der Zeile
+||
+Name|fraglicher Zustand|Korrektur
+coverings type|"AccessibleMaps Property ""material[1]"" gruppiert Typ der architektonischen Outdoor-Überdachung (z.B. Arkaden) mit Oberflächenmaterialien "|Änderung der Zuweisung in AccessibleMaps-Strukturierung

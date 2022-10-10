@@ -1,0 +1,222 @@
+Name|Semantic tags|"Doppelzuordnung ""Building"" und ""Outdoor"" & Begründung"|Implikationen|OSM tag|OSM tag proposal|AccessibleMaps Categories|AccessibleMaps Entities|AccessibleMaps Property|AccessibleMaps Sub-Property|A11yJSON tag|A11yJSON property
+all public spaces are on at least one accessible route|<NAV>|ja; auch für logische Outdoor-Räume||access=yes, access:disabled=yes, wheelchair=yes|route=accessible|Building characteristics|Floor (pathway)|are all public spaces on at least one accessible route?||Accessibility#accessibleWith.wheelchair == true|Accessibility#accessibleWith.wheelchair, EquipmentProperties#alternativeRouteInstructions, PlaceInfo#accessibility
+hospital is equipped to deal with emergencies or that a road is accessible to emergency services|<EMG>|ja; explizite Begründung schon in Feature-Namen||emergency=yes|||||||
+name of public transport station|<TRS>|ja; für Gebäude, Outdoor-Fläche inkl. Gebäude, Outdoor-Fläche ohne Gebäude||name=user defined, public_transport=station||Way to building|Way to public transport|name of station|||PlaceInfo#name
+station is an area designed to access public transport|<TRS>|ja; für Gebäude, Outdoor-Fläche inkl. Gebäude, Outdoor-Fläche ohne Gebäude||public_transport=station|||||||
+general value for street-art|<OBJ>|ja; kann an Gebäude oder an Outdoor-Wand sein||artwork_type=streetart, artwork_type=street_art|||||||
+Preselected flat area for a helicopter to land in an emergency situation|<STRUCT>|ja; kann auf Gebäudefläche (-dach) sein, aber auch in Außenbereich unabh. eines Gebäudes||emergency=landing_site|||||||
+lifeboat station|<EMG>|ja; kann eigenes Gebäude sein||emergency=life_boat_station|||||||
+hospital providing in-patient medical treatment|<EMG> <TYP>|ja; kann Gebäude oder Gelände mit Gebäuden sein||amenity=hospital|||||||
+primary or secondary school|<TYP>|ja; kann Gebäude oder Gelände mit Gebäuden sein||amenity=school|||||||
+rammed earth wall|<STRUCT>|ja; kann zu Haus gehören, aber z.B. auch Befestigungsanlage sein und da ggf. nicht Gebäudeteil||wall=pise|||||||
+remarkable building or architectural physical structure|<PROP>|ja; nicht jedes Bauwerk muss (subjektiv) als Gebäude bezeichnet werden - eine Bezeichnung, die Innenräume implizieren kann; Beispiel: Triumphbögen||artwork_type=architecture|||||||
+yard of building, can be mapped as part (e.g. enclosed by it) or not|<STRUCT>|"ja; Zusammenführung von ""yard"" mit und ohne ""building=yes"" OSM-Tag"|keine Indoor-Informationen im gesamten durch Fläche definierten vertikalen Raum|building=yes, man_made=courtyard||General building information|Formal information|yard|||
+building with one or more soft storey|<STRUCT>|nein|beschränkte Indoor-Fläche der betroffenen Stockwerke sollte erfasst werden|building:soft_storey=yes|||||||PlaceInfo#category
+reinforcing measures have been put in place|<STRUCT>|nein|beschränkte Indoor-Fläche der betroffenen Stockwerke sollte erfasst werden|building:soft_storey=reinforced|||||||
+tunnel passage that goes through/under a building|<STRUCT>|nein|beschränkte Indoor-Fläche der betroffenen Stockwerke sollte erfasst werden|tunnel=building_passage||General building information|Formal information|tunnels between buildings or parts of buildings|||
+3 above-ground levels in a building|<LVL>|nein|Indoor-Objekte max. auf 3. überidischem Stockwerk|building:levels=3|||||||
+3 levels space between roof of part of building and top level of building|<LVL>|nein|Indoor-Objekte max. auf 3. überird. St. in Gebäudeteil|building:max_level=3|||||||
+number of floors (semantic depends on chosen tag)|<LVL>|nein|Implikation entspr. Tag; siehe andere Features mit semantischem <LVL>-Tag|building:levels=user defined, building:max_level=user defined, level=user defined, number=user defined||General help for orientation / Technical assistance|Rooms / venues / offices|number of floors|||
+level 13 is non-existent|<LVL>|nein|Indoor-Objekte nicht auf entspr. Stockwerken|non_existent_levels=13|||||||
+maximum indoor level|<LVL>|nein|Indoor-Objekte maximal auf diesem Stockwerk|max_level=5|||||||
+minimum indoor level|<LVL>|nein|Indoor-Objekte minimal auf diesem Stockwerk|min_level=-1|||||||
+changing table is located in the toilet for men|<PROP>|nein|optimalerweise sollte eine mind. 1 Wechselstation in einer solchen Toilette / eine solche Toilette mit Wechselstation-Tags erfasst sein |changing_table:location=male_toilet|||||||Restroom#toilet
+changing table is located in the toilet for wheelchair users|<PROP>|nein|optimalerweise sollte eine mind. 1 Wechselstation in einer solchen Toilette / eine solche Toilette mit Wechselstation-Tags erfasst sein |changing_table:location=wheelchair_toilet|||||||Restroom#toilet
+changing table is located in the toilet for women|<PROP>|nein|optimalerweise sollte eine mind. 1 Wechselstation in einer solchen Toilette / eine solche Toilette mit Wechselstation-Tags erfasst sein |changing_table:location=female_toilet|||||||Restroom#toilet
+changing table is located in the unisex toilet|<PROP>|nein|optimalerweise sollte eine mind. 1 Wechselstation in einer solchen Toilette / eine solche Toilette mit Wechselstation-Tags erfasst sein |changing_table:location=unisex_toilet|||||||Restroom#toilet
+diaper changing table in toilet / toilet compartment|<PROP>|nein|optimalerweise sollte eine mind. 1 Wechselstation in einer solchen Toilette / eine solche Toilette mit Wechselstation-Tags erfasst sein |changing_table=yes, changing_table=no, changing_table=limited, changing_table:count=user defined, changing_table:fee=yes, changing_table:fee=no, changing_table:location=female_toilet, changing_table:location=male_toilet, changing_table:location=unisex_toilet, changing_table:location=wheelchair_toilet||Facility daily needs|Toilet / toilet compartment|diaper changing table|||Restroom#toilet
+changing table is located right in the sales area|<PROP>|nein|optimalerweise sollte eine mind. 1 solche Wechselstation / eine entsprechender logischer Raum mit Wechselstation-Tags erfasst sein|changing_table:location=sales_area|||||||
+changing table is in a dedicated room|<PROP>|nein|optimalerweise sollte eine mind. 1 solche Wechselstation erfasst sein|changing_table:location=dedicated_room|||||||
+diaper change possible in relaxation room|<PROP>|nein|optimalerweise sollte eine mind. 1 Wechselstation in einem solchen Raum / eine solcher Raum mit Wechselstation-Tags erfasst sein |changing_table=yes, changing_table=no, changing_table=limited, changing_table:count=user defined, changing_table:fee=yes, changing_table:fee=no, changing_table:location=room, room=relaxation||Facility daily needs|Relaxation room|diaper change|||
+changing table is in a room that isn't mainly intended for changing nappies|<PROP>|nein|optimalerweise sollte eine mind. 1 solche Wechselstation erfasst sein|changing_table:location=room|||||||
+type of light in building|<PROP>|nein|Konsistenz der Indoor-Informationen|light:method=gas, light:method=electric, light:method=incandescent, light:method=halogen, light:method=discharge, light:method=metal-halide, light:method=neon, light:method=sodium, light:method=high_pressure_sodium, light:method=low_pressure_sodium, light:method=fluorescent, light:method=mercury, light:method=LED, light:method=laser, light:method=arc||General building information|Light|type [10]|||PlaceInfo#accessibility
+type of obstacles in building|<PROP>|nein|Konsistenz der Indoor-Informationen|building=yes, movable=no, movable=yes, obstacle:wheelchair=limited, obstacle:wheelchair=no, obstacle:wheelchair=step, obstacle:wheelchair=yes||Building characteristics|Obstacles|type [11]|||Pathways#widthAtObstacles
+not part of building|<PRT>|nein|keine Indoor-Objekte innerhalb|building:part=no|||||||
+building bottom starts 3 levels over ground|<LVL>|nein||building:min_level=3|||||||
+digester building, a bioreactor for the production of biogas from biomass|<TYP>|nein||building=digester|||||||
+barn building, agricultural building used for storage and as a covered workplace|<TYP>|nein||building=barn|||||||
+houseboat, boat used primarily as a home, staying at a single permanent location|<TYP>|nein||building=houseboat|||||||
+apartments building, arranged into individual dwellings|<TYP>|nein||building=apartments|||||||
+building built as a supermarket|<TYP>|nein||building=supermarket||General help for orientation / Technical assistance|Stores|type [5]|supermarket||PlaceInfo#category
+building built as chapel|<TYP>|nein||building=chapel|||||||PlaceInfo#category
+building built to house government offices|<TYP>|nein||building=government|||||||PlaceInfo#category
+building constructed as accessible to the general public|<TYP>|nein||building=public|||||||PlaceInfo#accessibility, PlaceInfo#category
+building constructed for non-specific commercial activities to take place there|<TYP>|nein||building=commercial|||||||PlaceInfo#category
+fire station building|<TYP>|nein||building=fire_station|||||||PlaceInfo#category
+toilets building|<TYP>|nein||building=toilets|||||||PlaceInfo#category, Restroom#toilet
+hotel building, designed with separate rooms available for overnight accommodation|<TYP>|nein||building=hotel|||||||PlaceInfo#category
+bakehouse, building for baking bread|<TYP>|nein||building=bakehouse|||||||PlaceInfo#category
+cowshed, building for housing cows|<TYP>|nein||building=cowshed|||||||PlaceInfo#category
+sty, building for raising domestic pigs|<TYP>|nein||building=sty|||||||PlaceInfo#category
+building hosting any civic amenity|<TYP>|nein||building=civic|||||||PlaceInfo#category
+greenhouse, building in which plants are grown|<TYP>|nein||building=greenhouse|||||||PlaceInfo#category
+auxiliary farm building, inspecific building on a farm that is not a dwelling|<TYP>|nein||building=farm_auxiliary|||||||PlaceInfo#category
+roof-style building, open on at least two sides|<TYP>|nein||building=roof|||||||
+convservatory, building or room having glass or tarpaulin roofing and walls|<TYP>|nein||building=conservatory|||||||
+retail building, primarily used for selling goods to the general public|<TYP>|nein||building=retail||General help for orientation / Technical assistance|Rooms / venues / offices|type [15]|retail areas (shops)||PlaceInfo#category
+pavilion building, providing facilities for users of sports grounds|<TYP>|nein||building=pavilion|||||||PlaceInfo#category
+building related to the public transportation|<TYP>|nein||building=transportation||General building information|Formal information|public transport|||PlaceInfo#category
+horse stable|<TYP>|nein||building=stable|||||||PlaceInfo#category
+building that was built as a cathedral|<TYP>|nein||building=cathedral|||||||PlaceInfo#category
+building that was built as a church|<TYP>|nein||building=church|||||||PlaceInfo#category
+building that was built as a mosque|<TYP>|nein||building=mosque|||||||PlaceInfo#category
+building that was built as a religious building|<TYP>|nein||building=religious|||||||PlaceInfo#category
+building that was built as a riding hall|<TYP>|nein||building=riding_hall|||||||PlaceInfo#category
+building that was built as a shrine|<TYP>|nein||building=shrine|||||||PlaceInfo#category
+building that was built as a sports hall|<TYP>|nein||building=sports_hall|||||||PlaceInfo#category
+building that was built as a synagogue|<TYP>|nein||building=synagogue|||||||PlaceInfo#category
+building that was built as a temple|<TYP>|nein||building=temple|||||||PlaceInfo#category
+bridge building|<TYP>|nein||building=bridge||General building information|Formal information|bridges between buildings or parts of buildings|||
+building used primarily for residential purposes|<TYP>|nein||building=residential|||||||PlaceInfo#category
+industrial building where some manufacturing process takes place|<TYP>|nein||building=industrial|||||||PlaceInfo#category
+building which forms part of a hospital|<TYP>|nein||building=hospital|||||||PlaceInfo#category
+building which was built as stadium|<TYP>|nein||building=stadium|||||||PlaceInfo#category
+building within the grounds of a college|<TYP>|nein||building=college|||||||PlaceInfo#category
+bungalow building, a holiday cottage|<TYP>|nein||building=bungalow|||||||
+bungalow building, a simple single-storey flat house|<TYP>|nein||building=bungalow|||||||StructuredAddress#house
+carport, is a covered structure used to offer limited protection to vehicles|<TYP>|nein||building=carport|||||||
+slurry tank, circular concrete structure holding liquid manure|<TYP>|nein||building=slurry_tank|||||||
+college or university dormitory for shared living of its students|<TYP>|nein||building=dormitory|||||||
+warehouse building, commercial building for storage of goods|<TYP>|nein||building=warehouse|||||||
+hut building, is a crude shelter|<TYP>|nein||building=hut|||||||
+detached residential building|<TYP>|nein||building=detached|||||||StructuredAddress#house
+farmhouse is the main building of a farm|<TYP>|nein||building=farm|||||||
+generic kindergarten building|<TYP>|nein||building=kindergarten|||||||
+generic school building|<TYP>|nein||building=school|||||||
+grandstand at racecourse or sports ground|<TYP>|nein||building=grandstand|||||||
+hangar is a building used for the storage of airplanes|<TYP>|nein||building=hangar|||||||
+bunker, a hardened military building|<TYP>|nein||building=bunker|||||||
+semidetached building, house that shares a common wall with another on one side|<TYP>|nein||building=semidetached|||||||StructuredAddress#house
+static caravan, mobile home permanently left on a single site|<TYP>|nein||building=static_caravan|||||||
+office building|<TYP>|nein||building=office|||||||PlaceInfo#category
+kiosk, one room retail building|<TYP>|nein||building=kiosk|||||||StructuredAddress#room
+terrace building, outline of a linear row of residential dwellings, normally has its own entrance|<TYP>|nein||building=terrace|||||||
+purpose of building|<TYP>|nein||building=apartments, building=bakehouse, building=barn, building=bridge, building=bungalow, building=bunker, building=cabin, building=carport, building=cathedral, building=chapel, building=church, building=civic, building=college, building=commercial, building=conservatory, building=construction, building=cowshed, building=detached, building=digester, building=dormitory, building=farm, building=farm_auxiliary, building=fire_station, building=garage, building=garages, building=gatehouse, building=ger, building=government, building=grandstand, building=greenhouse, building=hangar, building=hospital, building=hotel, building=house, building=houseboat, building=hut, building=industrial, building=kindergarten, building=kiosk, building=mosque, building=office, building=parking, building=pavilion, building=public, building=religious, building=residential, building=retail, building=riding_hall, building=roof, building=ruins, building=school, building=semidetached, building=service, building=shed, building=shrine, building=slurry_tank, building=sports_hall, building=stable, building=stadium, building=static_caravan, building=sty, building=supermarket, building=synagogue, building=temple, building=terrace, building=toilets, building=train_station, building=transformer_tower, building=transportation, building=tree_house, building=university, building=warehouse, building=water_tower, building=yes||General building information|Formal information|purpose [1]|||PlaceInfo#accessibility
+cabin building, roughly built house|<TYP>|nein||building=cabin|||||||PlaceInfo#category, StructuredAddress#house
+ruined building|<TYP>|nein||building=ruins|||||||
+shed, a simple structure used as storage or workshop|<TYP>|nein||building=shed|||||||
+house, single dwelling unit|<TYP>|nein||building=house|||||||
+single-owner private garage|<TYP>|nein||building=garage|||||||
+small building|<TYP>|nein||building=shed, building=hut, building=kiosk, building=cabin|||||||
+transformer tower, small but tall building constructed to comprise a transformer and connect to an overhead power line|<TYP>|nein||building=transformer_tower|||||||
+service building, small umanned building with certain machinery|<TYP>|nein||building=service|||||||
+gatehouse, spanning over a highway that enters a city or compound|<TYP>|nein||building=gatehouse|||||||
+structure purpose-built for parking cars|<TYP>|nein||building=parking|||||||WheelchairParking#count, WheelchairParking#hasDedicatedSignage, WheelchairParking#isLocatedInside, WheelchairParking#length, WheelchairParking#location, WheelchairParking#maxVehicleHeight, WheelchairParking#neededParkingPermits, WheelchairParking#paymentBySpace, WheelchairParking#paymentByZone, WheelchairParking#width
+train station building|<TYP>|nein||building=train_station|||||||
+tree house|<TYP>|nein||building=tree_house|||||||
+university building|<TYP>|nein||building=university|||||||
+watertower|<TYP>|nein||building=water_tower|||||||
+block of private garages each with a separate owner|<TYP>|nein||building=garages|||||||
+entry control point building|<TYP>|nein||building=gatehouse|||||||
+location used for fire spotting|<TYP> <EMG>|nein||emergency=fire_lookout|||||||
+portable, round tent|<TYP>|nein||building=ger|||||||
+building under construction|<TYP>|nein||building=construction|||||||
+condition of ground in front of entrance|<ENTR>|nein||incline=down, incline=up, incline=user defined, incline:across=down, incline:across=sag, incline:across=user defined, incline:avg=user defined, surface=acrylic, surface=artificial_turf, surface=asphalt,surface=carpet, surface=clay, surface=cobblestone, surface=cobblestone:flattend, surface=compacted, surface=concrete, surface=concrete:lanes, surface=concrete:plates, surface=dirt, surface=earth, surface=fine_gravel, surface=grass, surface=grass_paver, surface=gravle, surface=ground, surface=ice, surface=metal, surface=metal_grid, surface=mud, surface=paved, surface=paving_stones, surface=pebblestone, surface=rock, surface=salt, surface=sand, surface=sett, surface=snow, surface=tartan, surface=unhewn_cobblestone, surface=unpaved, surface=wood, surface=woodchips|condition=bad, condition=good, condition=medium|Way to building|Ground in front of entrance|condition [3]|||
+condition of ground in front of entrance: large stone slabs (with/on large joints)|<ENTR>|nein||incline=down, incline=up, incline=user defined, incline:across=down, incline:across=sag, incline:across=user defined, incline:avg=user defined, surface=cobblestone, surface=concrete_lanes, surface=grass_paver, surface=paving_stones, surface=rock, surface=sett, surface=stepping_stones, surface=unhewn_cobblestone|condition=bad, condition=good, condition=medium|Way to building|Ground in front of entrance|condition [3]|large stone slabs (with/on large joints)||
+access via accessible door|<ENTR>|nein||access=yes, access:disabled=yes, door=yes, wheelchair=yes||Building characteristics|Doorways|accessibility [1]|through door|Accessibility#accessibleWith.wheelchair == true|Accessibility#accessibleWith.wheelchair, PlaceInfo#accessibility
+additional entry|<ENTR>|nein||entrance=secondary||Building characteristics|Doorways|type of entrance/exit door|side entrance||Entrance#door
+backdoor|<ENTR>|nein||entrance=service|||||||Entrance#door, EquipmentProperties#door
+controlled entryway to a fortification or prison|<ENTR>|nein||barrier=sally_port|||||||
+entrance of a building|<ENTR>|nein||entrance=yes||Building characteristics|Doorways|type of entrance/exit door|entrance||Entrance#door
+door for a loading dock|<ENTR>|nein||door=loadingdock|||||||EquipmentProperties#door
+entrance door provides inside visual contrast to wall|<ENTR>|nein||door=yes, entrance=yes, indoor=yes|high_contrast=yes|Building characteristics|Doorways|material of the entrance door|visual contrast to wall: inside||Entrance#door, EquipmentProperties#isHighContrast
+entrance door provides outside visual contrast to wall|<ENTR>|nein||door=yes, entrance=yes, indoor=no|high_contrats=no|Building characteristics|Doorways|material of the entrance door|visual contrast to wall: outside||Entrance#door, EquipmentProperties#isHighContrast
+entrance has fixed ramp|<ENTR>|nein||entrance=yes, highway=access_ramp, ramp=yes|ramp=permanent||||||Entrance#hasFixedRamp
+entrance has removable ramp|<ENTR>|nein||entrance=yes, removable=yes, ramp=yes|||||||Entrance#hasRemovableRamp
+entrance leads directly in the elevator|<ENTR>|nein||elevator=entrance|||||||Entrance#door
+entrance number|<ENTR>|nein||entrance=yes, ref=user defined||General help for orientation / Technical assistance|Plan|entrance number|||
+entrance slope angle|<ENTR>|nein||entrance=yes, incline:across=10°, incline:across=10%, incline:across=user defined, incline:avg=10°, incline:avg=10%, incline:avg=user defined, incline=10°, incline=10%, incline=user defined|||||||Entrance#slopeAngle, Ground#slopeAngle
+garage door|<ENTR>|nein||door=overhead|||||||EquipmentProperties#door
+ground level entrance|<ENTR>|nein||entrance=yes, level=0, step_count=0|entrance=ground_level|Building characteristics|Doorways|level [1]|ground level entrance||Entrance#door, Entrance#isLevel
+ID of entrance intercom equipment|<ENTR>|nein||entrance=yes|ID=yes, intercom=yes||||||Entrance#intercomEquipmentId, EquipmentProperties#originalId, PlaceInfo#creatorId, PlaceInfo#originalId
+main entrance of a building|<ENTR>|nein||entrance=main||Building characteristics|Doorways|type of entrance/exit door|main entrance||Entrance#door, Entrance#isMainEntrance
+masonry tactile pavement to the entrance|<ENTR>|nein||material=masonry||Way to building|Ground in front of entrance|tactile pavement to the entrance|masonry||
+material of the entrance door|<ENTR>|nein||door=yes, entrance=yes, material=adobe, material=andesite, material=bamboo, material=brass, material=brick, material=bronze, material=cement_block, material=concrete, material=glass, material=granite, material=limestone, material=masonry, material=metal, material=metal_plates, material=mirror, material=mud, material=palm_leaves, material=plaster, material=plastic, material=rammed_earth, material=reinforced_concrete, material=sand_cement_blocks, material=sandstone, material=silicate brick, material=slate, material=soil, material=steel, material=stone, material=tiles, material=timber_frayming, material=wood, material=vinyl||Building characteristics|Doorways|material of the entrance door|||Entrance#door, EquipmentProperties#door
+name of entrance|<ENTR>|nein||entrance=yes, name=user defined|||||||Entrance#name, PlaceInfo#name
+other condition of ground in front of entrance|<ENTR>|nein||surface=acrylic, surface=artificial_turf, surface=asphalt, surface=carpet, surface=clay, surface=cobblestone, surface=cobblestone:flattend, surface=concrete, surface=concrete:lanes, surface=concrete:plates, surface=compacted, surface=dirt, surface=earth, surface=fine_gravel, surface=grass, surface=grass_paver, surface=gravel, surface=ground, surface=ice, surface=metal, surface=metal_grid, surface=mud, surface=paved, surface=paving_stones, surface=pebblestone, surface=rock, surface=salt, surface=sand, surface=sett, surface=snow, surface=tartan, surface=unhewn_cobblestone, surface=unpaved, surface=wood, surface=woodchips|ground:condition=average, ground:condition=bad, ground:condition=good|Way to building|Ground in front of entrance|condition [3]|other||Ground#sidewalkConditions
+other upstand at the tactile pavement to the entrance|<ENTR>|nein||entrance=yes, kerb=flush, kerb=lowered, kerb=raised, kerb=rolled, kerb=yes, obstacle:wheelchair=step, obstacle:wheelchair=yes, tactile_paving=yes|upstand=yes|Way to building|Ground in front of entrance|tactile pavement to the entrance|other upstand||
+ramp to the entrance door|<ENTR>|nein||door=yes, entrance=yes, ramp=yes|door=entrance, ramp=entrance|Change in Ground Height|Ramp|where to|entrance -> door||Entrance#hasFixedRamp, Entrance#hasRemovableRamp
+stairs at entrance|<ENTR>|nein||entrance=staircase, entrance=yes|||||||Entrance#stairs, Stairs#alternativeMobileEquipmentIds, Stairs#count, Stairs#hasAntiSlipNosing, Stairs#hasBrailleNavigation, Stairs#hasHandRail, Stairs#hasHighContrastNosing, Stairs#hasTactileSafetyStrips, Stairs#name, Stairs#stepHeight
+tactile pavement to the entrance|<ENTR>|nein||tactile_paving=yes|tactile_paving=entrance|Way to building|Ground in front of entrance|tactile pavement to the entrance|||
+tactile pavement to the entrance ending in a wall|<ENTR>|nein||tactile_paving=incorrect|tactile_paving=entrance, tactile_paving=wall|Way to building|Ground in front of entrance|tactile pavement to the entrance|wall||
+tactile pavement to the entrance out of profile bricks|<ENTR>|nein||tactile_paving=yes|tactile_paving=entrance, tactile_paving=profile_bricks|Way to building|Ground in front of entrance|tactile pavement to the entrance|profile bricks||
+tactile pavement to the entrance with curb|<ENTR>|nein||tactile_paving=yes|tactile_paving=curb, tactile_paving=entrance|Way to building|Ground in front of entrance|tactile pavement to the entrance|curb||
+tactile pavement to the entrance with fence|<ENTR>|nein||tactile_paving=yes|tactile_paving=entrance, tactile_paving=fence|Way to building|Ground in front of entrance|tactile pavement to the entrance|fence||
+tactile pavement to the entrance with handrail|<ENTR>|nein||handrail=both, handrail=center, handrail=left, handrail=multiple, handrail=rigth, handrail=yes, handrail:center=no, handrail:center=yes, handrail:left=no, handrail:left=yes, handrail:right=no, handrail:right=yes, tactile_paving=yes|tactile_paving=entrance, tactile_paving=handrail|Way to building|Ground in front of entrance|tactile pavement to the entrance|handrail||
+to mark the entrance to an emergency ward|<ENTR> <EMG>|nein||emergency=emergency_ward_entrance|||||||Entrance#door
+type of entrance / exit doorways|<ENTR> <EXIT>|nein||automatic_door=button, automatic_door=continuous, automatic_door=slowdown_button, automatic_door=motion, automatic_door=floor, barrier=entrance, door=folding, door=hinged, door=loadingdock, door=no, door=overhead, door=revolving, door=sliding, door=trapdoor, door=yes, door:handle=crash_bar, door:handle=knob, door:handle=lever, door:handle=hole, door:handle=ring, door:opening=both, door:opening=inside, door:opening=outside, door:wings=user defined, doorbell=mandatory, doorbell=yes, elevator=entrance, emergency=emergency_ward_entrance, entrance=emergency, entrance=exit, entrance=garage, entrance=home, entrance=main, entrance=secondary, entrance=service, entrance=staircase, entrance=yes, exit=emergency, exit=yes, room=entrance, wheelchair:entrance_width=user defined||Building characteristics|Doorways|type of entrance/exit door|||Door#isRevolving, Entrance#door, Entrance#isMainEntrance, EquipmentProperties#door, Restroom#entrance
+cobblestone surface in front of entrance|<ENTR> <SURF>|nein||surface=cobblestone||Way to building|Ground in front of entrance|condition [3]|cobblestones [2]||
+emergency exit|<EXIT>|nein||exit=emergency||Building characteristics|Doorways|type of entrance/exit door|emergency exit||Entrance#door
+one-way out of a building in case of emergency|<EXIT>|nein||entrance=emergency, exit=emergency|||||||Entrance#door
+one-way out of a building/exit|<EXIT>|nein||entrance=exit, exit=yes||Building characteristics|Doorways|type of entrance/exit door|exit||Entrance#door
+(accessible) description on how to approach the building|<NAV>|nein||blind:description:lg=user defined, deaf:description:lg=user defined, description=user defined, wheelchair:description:lg=user defined||General building information|Formal information|description [2]|approaching the building||
+house number is non-existent|<ADDR>|nein||nohousenumber=yes|||||||StructuredAddress#house
+building number|<ADDR>|nein||addr:housenumber=user defined||General building information|Formal information|building number|||StructuredAddress#building, StructuredAddress#house, StructuredAddress#level, StructuredAddress#room
+structured address city|<ADDR>|nein||addr:city=user defined|||||||StructuredAddress#city
+structured address country code|<ADDR>|nein||addrcountry=user defined|||||||StructuredAddress#countryCode
+structured address county|<ADDR>|nein||addr:count=user defined|||||||StructuredAddress#county
+structured address district|<ADDR>|nein||addr:district=user defined|||||||StructuredAddress#district
+structured address house|<ADDR>|nein||addr:housename=user defined, addr:housenumber=user defined|||||||StructuredAddress#house
+structured address postal code|<ADDR>|nein||addr:postcode=user defined|||||||StructuredAddress#postalCode
+structured address regions|<ADDR>|nein||addr:province=user defined|||||||StructuredAddress#regions
+structured address state|<ADDR>|nein||addr:state=user defined|||||||StructuredAddress#state
+structured address state code|<ADDR>|nein||addr:state=user defined|||||||StructuredAddress#stateCode
+structured address street|<ADDR>|nein||addr:street=user defined, addr:street:en=user defined|||||||StructuredAddress#street
+building address|<ADDR>|nein||addr:full=user defined||General building information|Formal information|address [1]|||PlaceInfo#address, StructuredAddress#building, StructuredAddress#house, StructuredAddress#level, StructuredAddress#room, StructuredAddress#street
+building is box shaped|<STRUCT>|nein||building:form=box|||||||PlaceInfo#category
+building is I-shaped|<STRUCT>|nein||building:form=I-shaped|||||||PlaceInfo#category
+building is L-shaped|<STRUCT>|nein||building:form=L-shaped|||||||PlaceInfo#category
+building is multi-projected|<STRUCT>|nein||building:form=multi-projected|||||||PlaceInfo#category
+building is not regular shaped|<STRUCT>|nein||building:form=other|||||||PlaceInfo#category
+building is rectangular shaped|<STRUCT>|nein||building:form=rectangular|||||||PlaceInfo#category
+building is T-shaped|<STRUCT>|nein||building:form=T-shaped|||||||PlaceInfo#category
+building with no soft storey|<STRUCT>|nein||building:soft_storey=no|||||||PlaceInfo#category
+building size|<STRUCT>|nein||building:levels=number, height=user defined, length=user defined, width=user defined||General building information|Formal information|size [1]|||PlaceInfo#accessibility
+building symmetry|<STRUCT>|nein||building:form=box, building:form=I-shaped, building:form=L-shaped, building:form=multi_projected, building:form=rectangular, building:form=T-shaped||General building information|Formal information|symmetry|||PlaceInfo#accessibility
+guard stone: a stone built onto or into the corner of a building or wall to prevent carriages from damaging the structure, often found on either side of an entrance to a laneway, or alongside a wall to protect it|<STRUCT>|nein||man_made=guard_stone|||||||
+castle wall|<STRUCT>|nein||wall=castle_wall|||||||
+name of building|<PROP>|nein||building=yes, name=user defined||General building information|Formal information|name [4]|||PlaceInfo#name
+phone number of the building|<PROP>|nein||building=yes, phone=user defined||General building information|Formal information|phone number|||EquipmentProperties#servicePhoneNumber, PlaceInfo#phoneNumber
+building is fireproof|<PROP>|nein||building:fireproof=yes|||||||PlaceInfo#category
+building is not fireproof|<PROP>|nein||building:fireproof=no|||||||PlaceInfo#category
+the building is 15.4 meter high|<PROP>|nein||height=15.4|||||||
+the building is 7 feet and 4 inches high|<PROP>|nein||"height=7'4"""|||||||
+the building has 8 residential units|<PROP>|nein||building:flats=8|||||||
+there is a building|<PROP>|nein||building=yes|||||||
+timber framing|<PROP>|nein||building:material=timber_framing, floor:material=timber_framing|||||||
+district heating as heat source|<PROP>|nein||heating=district_heating|||||||
+textual description of the building on the basis of a plan|<PROP>|nein||building=yes, deaf:description:lg=user defined, description=user defined, information=map, wheelchair:description:lg=user defined|building:description=user defined, plan:description=user defined|General help for orientation / Technical assistance|Plan|type [12]|textual description of the building||EquipmentProperties#description, EquipmentProperties#longDescription, EquipmentProperties#shortDescription, PlaceInfo#accessibility, PlaceInfo#description
+exterior accessible route exists|<WTB>|nein||highway=access_ramp|route=accessible|Way to building|Exterior accessible route|existence [4]||Accessibility#accessibleWith.wheelchair == true|Accessibility#accessibleWith.wheelchair, EquipmentProperties#alternativeRouteInstructions
+exterior accessible route has a cross slope|<WTB>|nein||highway=access_ramp, incline:across=down, incline:across=sag, incline:across=user defined|route=accessible|Way to building|Exterior accessible route|slope [4]|cross slope [1]|Accessibility#accessibleWith.wheelchair == true, Accessibility#partiallyAccessibleWith.wheelchair == true|Accessibility#accessibleWith.wheelchair, Accessibility#partiallyAccessibleWith.wheelchair, Pathways#maxLateralSlope
+exterior accessible route is a running slope|<WTB>|nein||highway=access_ramp, incline=down, incline=up, incline=user defined|route=accessible|Way to building|Exterior accessible route|slope [4]|running slope [1]|Accessibility#accessibleWith.wheelchair == true|Accessibility#accessibleWith.wheelchair
+exterior accessible route is in a stable condition|<WTB>|nein||highway=access_ramp, smoothness=excellent, smoothness=good, smoothness=intermediate|route=accessible|Way to building|Exterior accessible route|condition [1]|stable [1]|Accessibility#accessibleWith.wheelchair == true|Accessibility#accessibleWith.wheelchair, Ground#sidewalkConditions
+exterior accessible route with passing space|<WTB>|nein||height=user defined, highway=access_ramp, length=user defined, width=user defined|clear_floor_space=yes|Way to building|Exterior accessible route|passing space [1]||Accessibility#accessibleWith.wheelchair == true|Accessibility#accessibleWith.wheelchair, Pathways#widthAtObstacles
+firm condition of the exterior accessible route|<WTB>|nein||highway=access_ramp, smoothness=excellent, smoothness=good, smoothness=intermediate|route=accessible|Way to building|Exterior accessible route|condition [1]|firm [1]|Accessibility#accessibleWith.wheelchair == true|Accessibility#accessibleWith.wheelchair, Ground#sidewalkConditions
+good/bad condition of exterior accessible route|<WTB>|nein||highway=access_route, smoothness=bad, smoothness=good|route=accessible|Way to building|Exterior accessible route|condition [1]|good/bad|Accessibility#accessibleWith.wheelchair == false, Accessibility#accessibleWith.wheelchair == true, Accessibility#partiallyAccessibleWith.wheelchair == true|Accessibility#accessibleWith.wheelchair, Accessibility#partiallyAccessibleWith.wheelchair, Ground#sidewalkConditions
+slip-resistant exterior accessible route|<WTB>|nein||access=yes, access:disabled=yes|route=accessible, slip-resistant=yes|Way to building|Exterior accessible route|condition [2]|slip-resistant [1]|Accessibility#accessibleWith.wheelchair == true|Accessibility#accessibleWith.wheelchair, Stairs#hasAntiSlipNosing
+slope of exterior accessible route|<WTB>|nein||access=yes, access:disabled=yes, incline=down, incline=up, obstruction:type=slope, incline=user defined, incline:across=down, incline:across=sag, incline:across=user defined, incline:avg=user defined|route=accessible|Way to building|Exterior accessible route|slope [4]||Accessibility#accessibleWith.wheelchair == true|Accessibility#accessibleWith.wheelchair, Ground#slopeAngle, Pathways#maxLateralSlope, Pathways#maxLongitudinalSlope
+undulations on exterior accessible route|<WTB>|nein|||route=accessible, undulations=yes|Way to building|Exterior accessible route|condition [1]|undulations|Accessibility#accessibleWith.wheelchair == true|Accessibility#accessibleWith.wheelchair
+width of exterior accessible route|<WTB>|nein||access=yes, width=user defined|route=accessible|Way to building|Exterior accessible route|dimension [9]|width [1]|Accessibility#accessibleWith.wheelchair == true|Accessibility#accessibleWith.wheelchair, Pathways#width, Pathways#widthAtObstacles
+condition of exterior accessible route|<WTB>|nein||incline=down, incline=up, incline=user defined, incline:across=down, incline:across=sag, incline:across=user defined, incline:avg=user defined, surface=acrylic, surface=asphalt,surface=concrete, surface=concrete:lanes, surface=concrete:plates, surface=metal, surface=paved, surface=paving_stones, surface=tartan, surface=wood, wheelchair=limited, wheelchair=no, wheelchair=yes|condition=bad, condition=good, condition=medium, route=accessible|Way to building|Exterior accessible route|condition [1]||Accessibility#accessibleWith.wheelchair == false, Accessibility#accessibleWith.wheelchair == true, Accessibility#partiallyAccessibleWith.wheelchair == true|Accessibility#accessibleWith.wheelchair, Accessibility#partiallyAccessibleWith.wheelchair, Ground#sidewalkConditions, PlaceInfo#accessibility
+dimension of exterior accessible route|<WTB>|nein||access=yes, access:disabled=yes, height=user defined, length=user defined, wheelchair=yes, width=user defined|route=accessible|Way to building|Exterior accessible route|dimension [9]||Accessibility#accessibleWith.wheelchair == true|Accessibility#accessibleWith.wheelchair, Pathways#width, Pathways#widthAtObstacles, PlaceInfo#accessibility
+drive-through way where customers can visit a business without leaving their cars|<WTB>|nein||service=drive-through|||||||
+grates or openings on exterior accessible route|<WTB>|nein||highway=access_ramp, inlet=direct, inlet=curb_grate, inlet=curb_opening, inlet=grate, inlet=screen, wheelchair=limited, wheelchair=yes|grates=yes, openings=yes, route=accessible|Way to building|Exterior accessible route|grates or openings||Accessibility#accessibleWith.wheelchair == true, Accessibility#partiallyAccessibleWith.wheelchair == true|Accessibility#accessibleWith.wheelchair, Accessibility#partiallyAccessibleWith.wheelchair
+building part for apartments|<PRT>|nein||building:part=apartments|||||||
+building part under construction|<PRT>|nein||building:part=construction|||||||
+commercial part of building|<PRT>|nein||building:part=commercial|||||||
+garage is part of building|<PRT>|nein||building:part=garage|||||||
+house is building part|<PRT>|nein||building:part=house|||||||StructuredAddress#house, StructuredAddress#street
+industrial part of building|<PRT>|nein||building:part=industrial|||||||
+part of building|<PRT>|nein||building:part=yes|||||||
+part of building is a school|<PRT>|nein||building:part=school|||||||
+part of building is the roof|<PRT>|nein||building:part=roof|||||||
+residential part of building|<PRT>|nein||building:part=residential|||||||
+retail part of building|<PRT>|nein||building:part=retail|||||||
+fortification used to defend settlements|<STRUCT>|ja; könnte als Gebäude betrachtet werden||barrier=city_wall|||||||
+feature is located on the roof of a building|<POS>|ja; Outdoor-Objekt besitzt Bezug zum Gebäude||location=roof, location=rooftop|||||||WheelchairParking#location
+object is only partially covered|<STRUCT>|ja; Outdoor-Objekt besitzt Bezug zum Gebäude|wenn innerhalb Gebäudefläche: Objekt befindet sich Außenbereich, beschränke Innenfläche der betroffenen Gebäudestockwerke sollte erfasst werden|covered=partial|||||||
+arcade is a succession of arches|<STRUCT>|ja; Gebäudebestandteil schafft Outdoor-Bereich|wenn innerhalb Gebäudefläche: Objekt befindet sich Außenbereich, beschränke Innenfläche der betroffenen Gebäudestockwerke sollte erfasst werden|covered=arcade|||||||
+colonnade denotes a long sequence of columns joined by their entablature|<STRUCT>|ja; Gebäudebestandteil schafft Outdoor-Bereich|wenn innerhalb Gebäudefläche: Objekt befindet sich Außenbereich, beschränke Innenfläche der betroffenen Gebäudestockwerke sollte erfasst werden|covered=colonnade|||||||
+covered objects which are not covered by an arcade or a colonnade|<STRUCT>|ja; Gebäudebestandteil schafft Outdoor-Bereich|wenn innerhalb Gebäudefläche: Objekt befindet sich Außenbereich, beschränke Innenfläche der betroffenen Gebäudestockwerke sollte erfasst werden|covered=yes|||||||
+coverings type|<STRUCT>|ja; Gebäudebestandteil schafft Outdoor-Bereich|wenn innerhalb Gebäudefläche: Objekt befindet sich Außenbereich, beschränke Innenfläche der betroffenen Gebäudestockwerke sollte erfasst werden|covered=arcade, covered=booth, covered=colonnade, covered=partial, covered=yes||Building characteristics|Floor (pathway)|material [1]|coverings type||
+shape of building / structure / layout|<PROP>|nein||building:form=box; building:form=I-shaped; building:form=L-shaped; building:form=other; building:form=rectangular; building:form=T-shaped||General building information|Formal information|shape of building / structure / layout|||PlaceInfo#accessibility

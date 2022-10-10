@@ -1,0 +1,12 @@
+Mismatch of following attributes of feature 'attention fields in front of doors: yes, function(s): ... / no': OSM tag proposal
+	- siehe Eintrag des Features in Tabellenblatt "Korrektur" in Rückverfolgbarkeit
+Mismatch of following attributes of feature 'feature substantially located outside': OSM tag
+	- siehe Eintrag des Features "outdoor"
+Mismatch of following attributes of feature 'no access for blind persons': OSM tag
+	- siehe Eintrag des Features "not accessible for blind persons"
+Mismatch of following attributes of feature 'place where a road usage toll or fee is collected': OSM tag
+	- siehe Eintrag des Features
+Missing feature: sufficiently large single room that is suitable for practising sports indoors and does not have a ""centre"" character
+	- aufgrund von Anführungszeichen durch Export oder Parsing, fehlt nicht!
+Mismatch of following attributes of feature 'wall built to protect land along the coast from erosion and flooding from the sea': OSM tag
+	- siehe Eintrag des Features

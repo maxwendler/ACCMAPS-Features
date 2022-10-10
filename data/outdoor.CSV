@@ -1,0 +1,216 @@
+Name|Semantic tags|OSM tag|OSM tag proposal|AccessibleMaps Categories|AccessibleMaps Entities|AccessibleMaps Property|AccessibleMaps Sub-Property|A11yJSON tag|A11yJSON property
+access for vehicles in general is not allowed, but exceptions likes bikes, pedestrians|<ACC>|vehicle=private|||||||
+access only for agricultural traffic|<ACC>|access=agricultural|||||||
+access only for forestry vehicles|<ACC>|access=forestry |||||||
+access only if you dismount|<ACC>|access=dismount|||||||
+access only when traveling to this area|<ACC>|access=destination, access:disabled=destination, disabled=destination|||||||
+access permission for cyclists|<ACC>|bicycle=yes|||||||
+control point at an international border|<ACC>|barrier=border_control|||||||
+alley is a service road usually located between properties for access to utilities|<ACC>|service=alley|||||||
+specifies that a road is a driveway, typically leading to a residence or business|<ACC>|service=driveway|||||||
+The legal maximum height is 3.8m|<ACC>|maxheight=3.8|||||||WheelchairParking#maxVehicleHeight
+The legal maximum height is 3m|<ACC>|maxheight=3, maxheight=3 m|||||||WheelchairParking#maxVehicleHeight
+The legal maximum height is 6 feet 7 inches|<ACC>|"maxheight=6'7"""|||||||WheelchairParking#maxVehicleHeight
+The legal maximum height is more limiting than the country specific height limit of general traffic|<ACC>|maxheight=below_default|||||||WheelchairParking#maxVehicleHeight
+The legal maximum height is not known well enough to decide if it is more limiting than the default country specific height limit of general traffic|<ACC>|maxheight=no_indications|||||||WheelchairParking#maxVehicleHeight
+The legal maximum height is not specified by a sign|<ACC>|maxheight=no_sign|||||||WheelchairParking#maxVehicleHeight
+The legal maximum height is not specified by a sign or sufficient for the country specific height limit of general traffic|<ACC>|maxheight=unsigned|||||||WheelchairParking#maxVehicleHeight
+The legal maximum height is sufficient for the country specific height limit of general traffic|<ACC>|maxheight=default|||||||WheelchairParking#maxVehicleHeight
+there is no legal height limitation other than the default height limit of general traffic|<ACC>|maxheight=none|||||||WheelchairParking#maxVehicleHeight
+barrier along a path preventing access by motorcycles|<BAR>|barrier=motorcycle_barrier|||||||
+barrier made of heavy prefabricated blocks|<BAR>|barrier=jersey_barrier|||||||
+barriers that slows or prevents access for bicycle users|<BAR>|barrier=cycle_barrier|||||||
+debris blocking a road|<BAR>|barrier=debris|||||||
+drive-through gate used in rural areas to provide a barrier to livestock that does not require the driver to exit the vehicle|<BAR>|barrier=bump_gate|||||||
+height restrictor which prevents access of vehicles higher than a set limit|<BAR>|barrier=height_restrictor|||||||WheelchairParking#maxVehicleHeight
+horse stile allows pedestrians and horses to cross a gap through a fence|<BAR>|barrier=horse_stile|||||||
+log blocking a road|<BAR>|barrier=log|||||||
+man made ditch or trench to prevent access to the other side|<BAR>|barrier=ditch|||||||
+reflecting pool: a water feature found in gardens, squares, and at memorial sites, which consists of a shallow pool of water, undisturbed by fountain jets, for a calm reflective surface|<BAR>|water=reflecting_pool|||||||
+road side or median barrier made of steel wire ropes mounted on weak posts|<BAR>|barrier=cable_barrier|||||||
+section of wire fence which can be removed temporarily|<BAR>|barrier=hampshire_gate|||||||
+series of bollards designed to prevent illegal vehicular use of a public right of way, whilst retaining access for horse drawn carriages|<BAR>|barrier=kent_carriage_gap|||||||
+short section of the roadway where there is a deep dip in the middle|<BAR>|barrier=bus_trap|||||||
+simple and horizontal grate covers sumps on pavement or in a street to catch storm water|<BAR>|inlet=grate|||||||
+static anti-tank obstacle|<BAR>|barrier=tank_trap|||||||
+barrier to stop cars|<BAR>|barrier=sump_buster|||||||
+chain used to prevent motorised vehicles|<BAR>|barrier=chain|||||||
+line of closely spaced shrubs and tree species|<BAR>|barrier=hedge|||||||
+place where a road usage toll or fee is collected|<BAR>|barrier=toll_booth|||||||Payment#acceptsBills, Payment#acceptsCoins, Payment#acceptsCreditCards, Payment#acceptsDebitCards, Payment#acceptsPaymentByMobilePhone, Payment#hasPortablePaymentSystem
+rail, typically metal, designed to keep vehicles within their roadway|<BAR>|barrier=guard_rail|||||||
+railway level crossing which is normally closed and opens only on demand|<BAR>|crossing:on_demand=yes|||||||
+type of gate where you have to go into an enclosure and open a gate to get through|<BAR>|barrier=kissing_gate|||||||
+fire hydrant, an active fire protection measure, and a source of water provided in most urban, suburban, and rural areas with municipal water service to enable fire fighters to tap into the municipal water supply to assist in extinguishing a fire|<EMG>|emergency=fire_hydrant|||||||
+box in a mountain or wilderness area, containing a stretcher and first-aid materials|<EMG>|emergency=rescue_box|||||||
+container or trailer with fire fighting equipment in a suburban and forest border area|<EMG>|emergency=fire_equipment|||||||
+man made or natural pond with water for a fire department|<EMG>|emergency=fire_water_pond|||||||
+preferred point to pump water off a river or other waters for a fire department|<EMG>|emergency=suction_point|||||||
+way that is an emergency access road|<EMG>|service=emergency_access|||||||
+emergency access road|<EMG>|emergency=designated|||||||
+wildland firefighting tool also called a swatter or a beater. It is designed for extinguishing minor fires in rural areas such as heaths|<EMG>|emergency=fire_flapper|||||||
+actual address interpolation way|<ADDR>|addr:inclusion=actual|||||||StructuredAddress#building, StructuredAddress#city, StructuredAddress#countryCode, StructuredAddress#county, StructuredAddress#district, StructuredAddress#house, StructuredAddress#level, StructuredAddress#postalCode, StructuredAddress#regions, StructuredAddress#room, StructuredAddress#state, StructuredAddress#stateCode, StructuredAddress#street, StructuredAddress#text
+address interpolation way may contain numbers that don't actually physically exist|<ADDR>|addr:inclusion=estimate|||||||PlaceInfo#address, StructuredAddress#building, StructuredAddress#city, StructuredAddress#countryCode, StructuredAddress#county, StructuredAddress#district, StructuredAddress#house, StructuredAddress#level, StructuredAddress#postalCode, StructuredAddress#regions, StructuredAddress#room, StructuredAddress#state, StructuredAddress#stateCode, StructuredAddress#street, StructuredAddress#text
+all numbers are used to interpolate the house numbers|<ADDR>|addr:interpolation=all|||||||StructuredAddress#building, StructuredAddress#city, StructuredAddress#countryCode, StructuredAddress#county, StructuredAddress#district, StructuredAddress#house, StructuredAddress#level, StructuredAddress#postalCode, StructuredAddress#regions, StructuredAddress#room, StructuredAddress#state, StructuredAddress#stateCode, StructuredAddress#street, StructuredAddress#text
+complete range of all possible address numbers on a block|<ADDR>|addr:inclusion=potential|||||||PlaceInfo#address, StructuredAddress#building, StructuredAddress#city, StructuredAddress#countryCode, StructuredAddress#county, StructuredAddress#district, StructuredAddress#house, StructuredAddress#level, StructuredAddress#postalCode, StructuredAddress#regions, StructuredAddress#room, StructuredAddress#state, StructuredAddress#stateCode, StructuredAddress#street, StructuredAddress#text
+estimated interpolation way|<ADDR>|addr:inclusion=estimate|||||||StructuredAddress#building, StructuredAddress#city, StructuredAddress#countryCode, StructuredAddress#county, StructuredAddress#district, StructuredAddress#house, StructuredAddress#level, StructuredAddress#postalCode, StructuredAddress#regions, StructuredAddress#room, StructuredAddress#state, StructuredAddress#stateCode, StructuredAddress#street, StructuredAddress#text
+even numbers are used to interpolate the house numbers|<ADDR>|addr:interpolation=even|||||||StructuredAddress#building, StructuredAddress#city, StructuredAddress#countryCode, StructuredAddress#county, StructuredAddress#district, StructuredAddress#house, StructuredAddress#level, StructuredAddress#postalCode, StructuredAddress#regions, StructuredAddress#room, StructuredAddress#state, StructuredAddress#stateCode, StructuredAddress#street, StructuredAddress#text
+every 3rd number is used to interpolate the house numbers|<ADDR>|addr:interpolation=3|||||||StructuredAddress#building, StructuredAddress#city, StructuredAddress#countryCode, StructuredAddress#county, StructuredAddress#district, StructuredAddress#house, StructuredAddress#level, StructuredAddress#postalCode, StructuredAddress#regions, StructuredAddress#room, StructuredAddress#state, StructuredAddress#stateCode, StructuredAddress#street,StructuredAddress#text
+every house number from the address interpolation way results in an exact match with physical houses|<ADDR>|addr:inclusion=actual|||||||PlaceInfo#address, StructuredAddress#building, StructuredAddress#city, StructuredAddress#countryCode, StructuredAddress#county, StructuredAddress#district, StructuredAddress#house, StructuredAddress#level, StructuredAddress#postalCode, StructuredAddress#regions, StructuredAddress#room, StructuredAddress#state, StructuredAddress#stateCode, StructuredAddress#street, StructuredAddress#text
+odd numbers are used to interpolate the house numbers|<ADDR>|addr:interpolation=odd|||||||StructuredAddress#building, StructuredAddress#city, StructuredAddress#countryCode, StructuredAddress#county, StructuredAddress#district, StructuredAddress#house, StructuredAddress#level, StructuredAddress#postalCode, StructuredAddress#regions, StructuredAddress#room, StructuredAddress#state, StructuredAddress#stateCode, StructuredAddress#street, StructuredAddress#text
+potential interpolation way|<ADDR>|addr:inclusion=potential|||||||StructuredAddress#building, StructuredAddress#city, StructuredAddress#countryCode, StructuredAddress#county, StructuredAddress#district, StructuredAddress#house, StructuredAddress#level, StructuredAddress#postalCode, StructuredAddress#regions, StructuredAddress#room, StructuredAddress#state, StructuredAddress#stateCode, StructuredAddress#street, StructuredAddress#text
+the alphabet is used to interpolate the house numbers|<ADDR>|addr:interpolation=alphabetic|||||||StructuredAddress#building, StructuredAddress#city, StructuredAddress#countryCode, StructuredAddress#county, StructuredAddress#district, StructuredAddress#house, StructuredAddress#level, StructuredAddress#postalCode, StructuredAddress#regions, StructuredAddress#room, StructuredAddress#state, StructuredAddress#stateCode, StructuredAddress#street, StructuredAddress#text
+advertising billboard (also called a hoarding) is a large outdoor advertising structure, typically found in high-traffic areas such as alongside busy roads|<ADV>|advertising=billboard|||||||
+advertising column, a cylindrical outdoor structure which shows advertisements|<ADV>|advertising=column|||||||
+flagpole for advertising|<ADV>|advertising=flag|||||||
+small billboard for neighbourhood advertising, generally intended for pedestrians, but some of them can be along roads. Some of them are open to any fly posters, and not private|<ADV>|advertising=board|||||||
+cabinet located in the street and hosting technical equipment to operate facilities such as electricity or street lights|<OBJ>|man_made=street_cabinet|||||||
+fireplace as heat source|<OBJ>|heating=fireplace|||||||
+generic fountain consisting of a stone block|<OBJ>|fountain=stone_block|||||||
+long pole built to hold a flag|<OBJ>|man_made=flagpole|||||||
+mist fountain|<OBJ>|fountain=mist|||||||
+splash pad or spray pool|<OBJ>|fountain=splash_pad|||||||
+table with benches for food and rest|<OBJ>|leisure=picnic_table|||||||
+tall, narrow, four-sided, tapered monument which usually ends in a pyramid-like shape at the top|<OBJ>|man_made=obelisk|||||||
+important buildings in surrounding area|<OBJ>|building=apartments, building=bakehouse, building=barn, building=bridge, building=bungalow, building=bunker, building=cabin, building=carport, building=cathedral, building=chapel, building=church, building=civic, building=college, building=commercial, building=conservatory, building=construction, building=cowshed, building=detached, building=digester, building=dormitory, building=farm, building=farm_auxiliary, building=fire_station, building=garage, building=garages, building=gatehouse, building=ger, building=government, building=grandstand, building=greenhouse, building=hangar, building=hospital, building=hotel, building=house, building=houseboat, building=hut, building=industrial, building=kindergarten, building=kiosk, building=mosque, building=office, building=parking, building=pavilion, building=public, building=religious, building=residential, building=retail, building=riding_hall, building=roof, building=ruins, building=school, building=semidetached, building=service, building=shed, building=shrine, building=slurry_tank, building=sports_hall, building=stable, building=stadium, building=static_caravan, building=sty, building=supermarket, building=synagogue, building=temple, building=terrace, building=toilets, building=train_station, building=transformer_tower, building=transportation, building=tree_house, building=university, building=warehouse, building=water_tower, building=yes|building=important|General building information|Formal information|important buildings in surrounding area|||
+specifies a memorial as a ghost cycle: a white bicycle to commemorate a cyclist who died in traffic|<OBJ>|memorial=ghost_bike|||||||
+specifies a memorial as a stele|<OBJ>|memorial=stele|||||||
+specifies a memorial as a stolperstein|<OBJ>|memorial=stolperstein|||||||
+specifies a memorial as a war memorial|<OBJ>|memorial=war_memorial|||||||
+specifies a memorial as an obelisk|<OBJ>|memorial=obelisk|||||||
+specific drinking water fountain in Rome, IT|<SERV>|fountain=nasone, fontain=roman_wolf|||||||AnimalPolicy#suppliesWaterForPets
+specific drinking water fountain in Torino, IT|<SERV>|fountain=toret|||||||AnimalPolicy#suppliesWaterForPets
+phone booth with public telephone|<SERV>|amenity=telephone, covered=booth||Facility daily needs|Public telephone|type [13]|phone booth||
+single small container for depositing garbage that is easily accessible for pedestrians|<SERV>|amenity=waste_basket|||||||
+facility to decontaminate footwear for hikers|<SERV>|man_made=footwear_decontamination|||||||
+permeable paving using regular cell structure|<SURF>|surface=grass_paver|||||||
+crushed rock with sharp edges|<SURF>|surface=gravel|||||||
+big pieces of rock used to improve path quality|<SURF>|surface=rock|||||||
+dry salt lakes|<SURF>|surface=salt|||||||
+grass covered ground|<SURF>|surface=grass|||||||
+hole in the road surface covered in a series of bars that allow wheeled vehicles but not animals to cross|<SURF>|barrier=cattle_grid|||||||
+object is paved with asphalt concrete|<SURF>|surface=asphalt||Way to building|Ground in front of entrance|condition [3]|asphalt||
+earth, prone to erosion and often uneven|<SURF>|surface=dirt, surface=earth|||||||
+snowfaced with compacted snow|<SURF>|surface=snow|||||||
+synthetic, all-weather surface typically used in running|<SURF>|surface=tartan|||||||
+the ground itself has marks of human or animal usage|<SURF>|surface=ground|||||||
+cobblestone surface of outdoor path|<SURF>|surface=cobblestone||Way to building|Exterior accessible route|condition [1]|cobblestones [1]||
+iced surface|<SURF>|surface=ice|||||||
+less than 2mm fractions of rock|<SURF>|surface=sand|||||||
+long, narrow concrete elements for a two-tracked vehicle|<SURF>|surface=concrete:lanes|||||||
+main material is soil|<SURF>|material=soil|||||||
+raw cobblestone, uncut stones, rounded stones, natural stones|<SURF>|surface=unhewn_cobblestone|||||||
+multilayer pavement with a stone or gravel basis|<SURF>|surface=fine_gravel|||||||
+rounded stones|<SURF>|surface=unhewn_cobblestone, surface=pebblestone|||||||
+Rocky surface of path|<SURF>|surface=rock|||||||
+sett paving, natural stones, rectangular shape|<SURF>|surface=sett|||||||
+soft mud ground with low carrying capacity|<SURF>|surface=mud|||||||
+mostly soft track|<SURF>|tracktype=grade4|||||||
+mostly solid track|<SURF>|tracktype=grade3|||||||
+soft track|<SURF>|tracktype=grade5|||||||
+solid track|<SURF>|tracktype=grade1|||||||
+track with solid, unpaved surface|<SURF>|tracktype=grade2|||||||
+unpaved surface|<SURF>|surface=unpaved, surface=compacted, tracktype=grade2|||||||
+woodchips as surface|<SURF>|surface=woodchips|||||||
+cable driven inclined railway|<TRS>|railway=furnicular|||||||
+local train|<TRS>|service=regional|||||||
+high speed trains; e.g., ICE, TGV|<TRS>|service=high_speed|||||||
+long distance trains with double-deck car carrier|<TRS>|service=car|||||||
+long distance trains; e.g., InterCity, EuroCity, InterRegio|<TRS>|service=long_distance|||||||
+night trains with sleeping cars|<TRS>|service=night|||||||
+car shuttle trains through tunnels|<TRS>|service=car-shuttle|||||||
+position on the street or rails where a public transport vehicle stops|<TRS>|public_transport=stop_position|||||||PlaceInfo#description
+trains for tourists, often historic vehicles|<TRS>|service=tourism|||||||
+urban mass transit service, short headways; e.g., S-train|<TRS>|service=commuter|||||||
+vehicle accessible for disabled persons|<TRS>|disabled_vehicle=yes||||||Accessibility#accessibleWith.wheelchair == true|Accessibility#accessibleWith.wheelchair
+vehicle not accesible for disabled persons|<TRS>|disabled_vehicle=no|||||||
+crossing with a small traffic island for pedestrians|<PED>|crossing=island, crossing:island=yes|||||||
+crossing without small traffic island for pedestrians|<PED>|crossing:island=no|||||||
+Crossings as separate ways|<PED>|footway=crossing|||||||
+curb ramp / curb cuts level landing dimensions|<PED>|kerb=flush, kerb=no, kerb=yes|curb_ramp=yes|Way to building|Curb ramp / curb cuts|level landing dimensions|||
+curb ramp/ curb cuts has a cross slope|<PED>|incline:across=down, incline:across=sag, incline:across=user defined, kerb=flush, kerb=lowered, kerb=no, kerb=yes|curb_ramp=yes|Way to building|Curb ramp / curb cuts|slope [3]|cross slope [2]||Pathways#maxLateralSlope
+designated footpaths, mainly/exclusively for pedestrians|<PED>|highway=footway|||||||
+dimension of curb ramp / curb cuts|<PED>|height=user defined, kerb=flush, kerb=lowered, kerb=no, kerb=yes, length=user defined, width=user defined|curb_ramp=yes|Way to building|Curb ramp / curb cuts|dimension [2]|||
+even pavement|<PED>|incline=0°, incline=0%, incline:across=0°, incline:across=0%, surface=user defined, tracktype=grade1|||||||Ground#evenPavement
+kerb > 3cm|<PED>|kerb=raised|||||||
+kerb is not present|<PED>|kerb=no|||||||
+kerb is present|<PED>|kerb=yes|||||||
+kerb ~ 0 cm|<PED>|kerb=flush|||||||
+kerb ~ 3cm|<PED>|kerb=lowered|||||||
+generic crossing with no traffic-signals of any type|<PED>|crossing=uncontrolled|||||||
+missing push button on a pedestrian crossing with an tactile arrow on top|<PED>|traffic_signals:arrow=no|||||||
+pedestrian can not use this route|<PED>|foot=no|||||||
+pedestrian can use this route legally|<PED>|foot=yes|||||||
+Pedestrian crossings without zebra crossing|<PED>|crossing=unmarked, highway=crossing|||||||
+pedestrian door or gate built into a wall or fence near a larger gate|<PED>|barrier=wicket_gate|||||||EquipmentProperties#door
+pedestrians can use this route|<PED>|foot=permissive|||||||
+Road with pedestrian friendly traffic rules|<PED>|highway=living_street|||||||
+sidewalk conditions|<PED>|sidewalk=both, sidewalk=left, sidewalk=no, sidewalk=right, sidewalk=yes, smoothness=bad, smoothness=excellent, smoothness=good, smoothness=horrible, smoothness=impassable, smoothness=intermediate, smoothness=very_bad, smoothness=very_horrible|||||||Ground#sidewalkConditions
+slope of curb ramp / curb cuts|<PED>|incline=down, incline=up, obstruction:type=slope, incline=user defined, incline:across=down, incline:across=sag, incline:across=user defined, incline:avg=user defined, kerb=flush, kerb=lowered, kerb=no, kerb=raised, kerb=rolled, kerb=yes|kerb=slope|Way to building|Curb ramp / curb cuts|slope [3]|||Ground#slopeAngle, Pathways#maxLateralSlope, Pathways#maxLongitudinalSlope
+there are acoustic signals helping to cross|<PED>|traffic_signals:sound=yes|||||||
+there are no acoustic signals helping to cross|<PED>|traffic_signals:sound=no|||||||
+"there is a (explicit) sign saying something like ""pedestrians allowed"", or a pedestrian icon"|<PED>|foot=designated|||||||
+there is a sidewalk|<PED>|sidewalk=yes|||||||Ground#sidewalkConditions
+there is a sidewalk on both sides|<PED>|sidewalk=both|||||||
+there is a sidewalk on the left hand side|<PED>|sidewalk=left|||||||
+there is a sidewalk on the right hand side|<PED>|sidewalk=right|||||||
+there is no sidewalk|<PED>|sidewalk=no|||||||
+there is no small tactile map at the traffic light pole|<PED>|traffic_signals:minimap=no|||||||
+traffic light controlled pedestrian crossings|<PED>|crossing=traffic_signals|||||||
+Unregulated level crossing|<PED>|crossing=uncontrolled, crossing=marked|||||||
+crossing vibrations do not occur|<PED>|traffic_signals:vibration=no|||||||
+crossing vibrations occur when crossing is permitted|<PED>|traffic_signals:vibration=yes|||||||
+warning bell crossing|<PED>|crossing:bell=yes|||||||
+width of curb ramp / curb cut|<PED>|kerb=flush, kerb=lowered, kerb=no, kerb=raised, kerb=rolled, kerb=yes, ramp=yes, width=user defined||Way to building|Curb ramp / curb cuts|dimension [2]|width [2]||
+audio traffic signal indicating one can now safely use a crossing|<PED>|traffic_signals:sound=walk|||||||
+cross slope|<PED>|incline:across=down, incline:across=sag, incline:across=user defined||Change in Ground Height|Slope|slope [2]|cross slope [3]||Ground#slopeAngle, Pathways#maxLateralSlope
+crossfall is 8%|<PED>|incline:across=8%|||||||Pathways#maxLateralSlope
+crossfall is downward|<PED>|incline:across=down|||||||Pathways#maxLateralSlope
+curb ramp / curb cuts exists|<PED>|kerb=flush, kerb=lowered, kerb=no, kerb=yes|curb_ramp=yes|Way to building|Curb ramp / curb cuts|existence [2]|||
+generic or multi-use path open to non-motorized traffic|<PED>|highway=path|||||||
+highway mainly/exclusively for pedestrians|<PED>|highway=pedestrian|||||||
+light source points to a crossing|<PED>|light:direction=to_crossing|||||||
+no crossing is possible/legal|<PED>|crossing=no|||||||
+push button on a pedestrian crossing with an tactile arrow on top|<PED>|traffic_signals:arrow=yes|||||||
+Rolled kerbs still provide a gutter for water while being traversable by large wheeled vehicles|<PED>|kerb=rolled|||||||
+running slope with curb ramp / curb cuts|<PED>|incline=down, incline=up, incline=user defined, incline:avg=user defined, kerb=flush, kerb=lowered, kerb=raised, kerb=rolled, kerb=yes||Way to building|Curb ramp / curb cuts|slope [3]|running slope [2]||
+sag of pathway|<PED>|incline:across=sag|||||||Pathways#maxLateralSlope
+signal to find the pole, tock - tock in most countries|<PED>|traffic_signals:sound=locate|||||||
+signal when walking is allowed|<PED>|traffic_signals:sound=walk|||||||
+stone edging to a pavement or raised path|<PED>|barrier=kerb|||||||
+there is a device that lets the floor vibrate at walk signal|<PED>|traffic_signals:floor_vibration=yes|||||||
+there is a footway|<PED>|footway=yes, indoor=footway|||||||
+there is a footway on both sides|<PED>|footway=both|||||||
+there is a footway on th right hand side|<PED>|footway=right|||||||
+there is a footway on the left hand side|<PED>|footway=left|||||||
+there is a small tactile map at the traffic light pole|<PED>|traffic_signals:minimap=yes|||||||
+there is no device that lets the floor vibrate at walk signal|<PED>|traffic_signals:floor_vibration=no|||||||
+there is no footway|<PED>|footway=no|||||||
+warning lights|<PED>|crossing:light=yes|||||||
+zebra crossing|<PED>|crossing=zebra|||||||
+condition of cross-fall on pavements|<PED>|incline:across=down, incline:across=sag, incline:across=user defined|condition=bad, condition=good, condition=medium|Way to building|Exterior accessible route|condition [1]|cross-fall on pavements||Ground#sidewalkConditions, Pathways#maxLateralSlope
+road not usable by wheeled vehicles|<RD-CON>|smoothness=impassable|||||||
+road usable by car with high clearance, light-duty off road vehicles|<RD-CON>|smoothness=very_bad|||||||
+road usable by city bike, sport cars, wheelchair, scooter|<RD-CON>|smoothness=intermediate||||||Accessibility#accessibleWith.wheelchair == true|Accessibility#accessibleWith.wheelchair
+road usable by heavy-duty off road vehicles|<RD-CON>|smoothness=horrible|||||||
+road usable by racing bike|<RD-CON>|smoothness=good|||||||
+road usable by roller blade, skate board|<RD-CON>|smoothness=excellent|||||||
+road usable by tractor, ATV, tanks, trial, Mountain bike and all kind of off-highway vehicles|<RD-CON>|smoothness=very_horrible|||||||
+road usable by trekking bike, normal cars, rickshaw|<RD-CON>|smoothness=bad|||||||
+realistic speed estimate|<RD-CON>|maxspeed:practical=15|||||||
+water passing under the road|<STRUCT>|tunnel=culvert|||||||
+wide opening is made on curbs and completed by an horizontal grate to catch storm water in a street|<STRUCT>|inlet=curb_grate|||||||
+wide opening is made on curbs on a road side to catch storm water|<STRUCT>|inlet=curb_opening|||||||
+long (>100m) tunnel where flowing water or other fluid prevent humans from safely walking inside|<STRUCT>|tunnel=flooded|||||||
+wall built to protect land along the coast from erosion and flooding from the sea|<STRUCT>|wall=seawall|||||||
+wall built to protect land from flooding along a river or lake|<STRUCT>|wall=flood_wall|||||||
+structure intended to protect roads and railways from avalanche in mountains|<STRUCT>|tunnel=avalanche_protector|||||||
+structure that holds back soil or rock|<STRUCT>|barrier=retaining_wall|||||||
+large strainer or trash screen is installed to prevent solid matter, possibly waste, to go downstream|<STRUCT>|inlet=screen|||||||
+part of a slipway leading up to the water's edge|<STRUCT>|service=slipway|||||||
+wall made from cages or boxes filled with stones|<STRUCT>|wall=gabion|||||||
+wall which protects against noise on one of its sides|<STRUCT>|wall=noise_barrier|||||||
+light source points to a determined point along a street|<LIGHT>|light:direction=to_street|||||||
+light source used in aviation for, e.g., runway lighting|<LIGHT>|light_source=aviation|||||||
+feature substantially located outside|<POS>|location=outdoor, indoor=no|||||||WheelchairParking#location
+plan location: outdoors|<POS>|board_type=map, information=map, indoor=no||General help for orientation / Technical assistance|Plan|location [8]|outdoors||
+aero light is established for aeronautical navigation|<LIGHT>|light:category=aero|||||||

@@ -1,0 +1,192 @@
+Name|neuer Name|Grund|inhaltl. Rechtfertigung|Quelle
+3 levels above ground levels in a building|3 above-ground levels in a building|"Uneindeutigkeit durch Ortographie; ""3 Stockwerke über den Erdgeschossen? Erdgeschosse - Plural?"""|"""The building:levels tag is used for marking the number of above-ground levels of a building (building=*) or part of a building (building:part=*)."""|wiki.openstreetmap.org/wiki/Key:building:levels
+3 levels space between ground level and bottom level of building|building bottom starts 3 levels over ground |"Uneindeutigkeit, z.B. ""oberirdisch und / oder oberirdisch?"""|"""For describing number of values, ""filling"" space between ground level and bottom level of building or part of building"""|wiki.openstreetmap.org/wiki/Key:building:min_level --> siehe Abbildung
+a bioreactor for the production of biogas from biomas|digester building, a bioreactor for the production of biogas from biomass|Kurzbezeichnung in Featurenamen unterbringen|Kurzbezeichnung entsprechend OSM-Tag|
+agricultural building used for storage and as a covered workplace|barn building, agricultural building used for storage and as a covered workplace|Kurzbezeichnung in Featurenamen unterbringen|Kurzbezeichnung entsprechend OSM-Tag|
+boat used primarily as a home, staying at a single permanent location|houseboat, boat used primarily as a home, staying at a single permanent location|Kurzbezeichnung in Featurenamen unterbringen|Kurzbezeichnung entsprechend OSM-Tag|
+building arranged into individual dwellings|apartments building, arranged into individual dwellings|Kurzbezeichnung in Featurenamen unterbringen|Kurzbezeichnung entsprechend OSM-Tag|
+building constructed to house fire fighting equipment|fire station building|Kurzbezeichnung in Featurenamen unterbringen, semantisch weitestgehend äquivalente Vereinfachung|Kurzbezeichnung entsprechend OSM-Tag|
+building designed for toilets|toilets building|Kurzbezeichnung in Featurenamen unterbringen, semantisch weitestgehend äquivalente Vereinfachung|Kurzbezeichnung entsprechend OSM-Tag|
+building designed with separate rooms available for overnight accommodation|hotel building, designed with separate rooms available for overnight accommodation|Kurzbezeichnung in Featurenamen unterbringen|Kurzbezeichnung entsprechend OSM-Tag|
+building for baking bread|bakehouse, building for baking bread|Kurzbezeichnung in Featurenamen unterbringen|Kurzbezeichnung entsprechend OSM-Tag|
+building for housing cows|cowshed, building for housing cows|Kurzbezeichnung in Featurenamen unterbringen|Kurzbezeichnung entsprechend OSM-Tag|
+building for raising domestic pigs|sty, building for raising domestic pigs|Kurzbezeichnung in Featurenamen unterbringen|Kurzbezeichnung entsprechend OSM-Tag|
+building in which plants are grown|greenhouse, building in which plants are grown|Kurzbezeichnung in Featurenamen unterbringen|Kurzbezeichnung entsprechend OSM-Tag|
+building on a farm that is not a dwelling|auxiliary farm building, inspecific building on a farm that is not a dwelling|Kurzbezeichnung in Featurenamen unterbringen|Kurzbezeichnung entsprechend OSM-Tag|
+building open on at least two sides|roof-style building, open on at least two sides|Kurzbezeichnung in Featurenamen unterbringen|Kurzbezeichnung entsprechend OSM-Tag|
+building or room having glass or tarpaulin roofing and walls|convservatory, building or room having glass or tarpaulin roofing and walls|Kurzbezeichnung in Featurenamen unterbringen|Kurzbezeichnung entsprechend OSM-Tag|
+building primarily used for selling goods to the general public|retail building, primarily used for selling goods to the general public|Kurzbezeichnung in Featurenamen unterbringen|Kurzbezeichnung entsprechend OSM-Tag|
+building providing facilities for users of sports grounds|pavilion building, providing facilities for users of sports grounds|Kurzbezeichnung in Featurenamen unterbringen|Kurzbezeichnung entsprechend OSM-Tag|
+building that is used as a stable for horses|horse stable|semantisch weitestgehend äquivalente Vereinfachung||
+building used as a bridge|bridge building|semantisch weitestgehend äquivalente Vereinfachung||
+building where some manufacturing process takes place|industrial building where some manufacturing process takes place|Kurzbezeichnung in Featurenamen unterbringen|Kurzbezeichnung entsprechend OSM-Tag|
+holiday cottage|bungalow building, a holiday cottage|Kurzbezeichnung in Featurenamen unterbringen|Kurzbezeichnung entsprechend OSM-Tag|
+carport is a covered structure used to offer limited protection to vehicles|carport, is a covered structure used to offer limited protection to vehicles|Kurzbezeichnung in Featurenamen unterbringen|Kurzbezeichnung entsprechend OSM-Tag|
+circular concrete structure holding liquid manure|slurry tank, circular concrete structure holding liquid manure|Kurzbezeichnung in Featurenamen unterbringen|Kurzbezeichnung entsprechend OSM-Tag|
+commercial building for storage of goods|warehouse building, commercial building for storage of goods|Kurzbezeichnung in Featurenamen unterbringen|Kurzbezeichnung entsprechend OSM-Tag|
+crude shelter|hut building, is a crude shelter|Kurzbezeichnung in Featurenamen unterbringen|Kurzbezeichnung entsprechend OSM-Tag|
+detached house|detached residential building|"Zusammenführung mit gelöschtem redundantem Eintrag ""free-standing residential building"""||
+hardened military building|bunker, a hardened military building|Kurzbezeichnung in Featurenamen unterbringen|Kurzbezeichnung entsprechend OSM-Tag|
+house that shares a common wall with another on one side|semidetached building, house that shares a common wall with another on one side|Kurzbezeichnung in Featurenamen unterbringen|Kurzbezeichnung entsprechend OSM-Tag|
+mobile home permanently left on a single site| static caravan, mobile home permanently left on a single site|Kurzbezeichnung in Featurenamen unterbringen|Kurzbezeichnung entsprechend OSM-Tag|
+one room retail building|kiosk, one room retail building|Kurzbezeichnung in Featurenamen unterbringen|Kurzbezeichnung entsprechend OSM-Tag|
+outline of a linear row of residential dwellings, normally has its own entrance|terrace building, outline of a linear row of residential dwellings, normally has its own entrance|Kurzbezeichnung in Featurenamen unterbringen|Kurzbezeichnung entsprechend OSM-Tag|
+roughly built house|cabin building, roughly built house|Kurzbezeichnung in Featurenamen unterbringen|Kurzbezeichnung entsprechend OSM-Tag|
+simple single-storey flat house|bungalow building, a simple single-storey flat house|Kurzbezeichnung in Featurenamen unterbringen|Kurzbezeichnung entsprechend OSM-Tag|
+simple structure used as storage or workshop|shed, a simple structure used as storage or workshop|Kurzbezeichnung in Featurenamen unterbringen|Kurzbezeichnung entsprechend OSM-Tag|
+single dwelling unit|house, single dwelling unit|Kurzbezeichnung in Featurenamen unterbringen|Kurzbezeichnung entsprechend OSM-Tag|
+small but tall building constructed to comprise a transformer and connect to an overhead power line|transformer tower, small but tall building constructed to comprise a transformer and connect to an overhead power line|Kurzbezeichnung in Featurenamen unterbringen|Kurzbezeichnung entsprechend OSM-Tag|
+small umanned building with certain machinery|service building, small umanned building with certain machinery|Kurzbezeichnung in Featurenamen unterbringen|Kurzbezeichnung entsprechend OSM-Tag|
+spanning over a highway that enters a city or compound|gatehouse, spanning over a highway that enters a city or compound|Kurzbezeichnung in Featurenamen unterbringen|Kurzbezeichnung entsprechend OSM-Tag|
+accessible parking exists|has / is accessible parking|Anzeige der scheinbar doppelten Bedeutung in Objekt- oder Selbstbezug|Anwendungsmöglichkeiten: Gebäude-Feature oder Parkplatz|
+accessible through door|access via accessible door|"Uneindeutigkeit, da ""accessible"" Barrierefreiheit sowie Zugangsberechtigungen meinen kann"|Ableitung aus OSM-Tags|
+approaching the building|(accessible) description on how to approach the building|gemeintes Feature nicht ersichtlich; Aufzeigen der Existenz verschiedener Varianten bzgl. Barrierefreiheit|Ableitung aus OSM-Tags|
+dedicated building for the making of beer|place for the making of beer|"Konsistenz mit anderen Features, denen der OSM-Key ""craft"" zugeordnet ist, die logische Räume, nicht nur Gebäude, implizieren. "|Ableitung aus OSM-Tags|wiki.openstreetmap.org/wiki/Key:craft
+mill designed to crush or bruise oil-bearing seeds, such as linseed or peanuts, or other oil-rich vegetable material|place of mill designed to crush or bruise oil-bearing seeds, such as linseed or peanuts, or other oil-rich vegetable material|"Konsistenz mit anderen Features, denen der OSM-Key ""craft"" zugeordnet ist, die logische Räume, nicht nur Gebäude, implizieren. "|Ableitung aus OSM-Tags|wiki.openstreetmap.org/wiki/Key:craft
+remarkable architectural building|remarkable building or architectural physical structure|Verdeutlichung, dass nicht nur Bezug auf Gebäude mit Innenräumen|nicht jedes Bauwerk muss (subjektiv) als Gebäude bezeichnet werden, was für manch eine(n) ggf. Innenräume implizieren würde; Bsp.: Triumphbögen|
+goes through/under a building|tunnel passage that goes through/under a building|"Zusammenführung mit gelöschtem redundantem Eintrag ""tunnel passage"""||
+access for vehicles in general is not allowed|access for vehicles in general is not allowed, but exceptions likes bikes, pedestrians|Würde sonst Verbot für alle Fahrzeuge implizieren, entgegen OSM-Wiki des Tags|wiki.openstreetmap.org/wiki/Tag:access%3Dprivate|
+active fire protection measure, and a source of water provided in most urban, suburban, and rural areas with municipal water service to enable fire fighters to tap into the municipal water supply to assist in extinguishing a fire|fire hydrant, an active fire protection measure, and a source of water provided in most urban, suburban, and rural areas with municipal water service to enable fire fighters to tap into the municipal water supply to assist in extinguishing a fire|Kurzbezeichnung in Featurenamen unterbringen|Kurzbezeichnung entsprechend OSM-Tag|
+yard of building|yard of building, can be mapped as part (e.g. enclosed by it) or not|"Zusammenführung d. Features, die nur in ""building=yes"" unterschieden"||
+vibrations do not occur|crossing vibrations do not occur|gemeintes Feature nicht ersichtlich|Ableitung aus OSM-Tags|
+vibrations occur when crossing is permitted|crossing vibrations occur when crossing is permitted|gemeintes Feature nicht ersichtlich|Ableitung aus OSM-Tags|
+acoustic signals: arrival signal / no|acoustic signals: elevator arrival signal / no|gemeintes Feature nicht ersichtlich|Ableitung aus OSM-Tags|
+air condition|air conditioning existance state|Korrektur der Semantik, 'air condition' != 'air conditioning'|Ableitung aus OSM-Tags|
+air-condition existing|air-conditioning existing|Korrektur der Semantik, 'air condition' != 'air conditioning'|Ableitung aus OSM-Tags|
+alarm in the 2-sense system|alarm in the 2-sense system, i.e. audiovisual|"Uneindeutigkeit ""Welche Sinne?"""|Ableitung aus OSM-Tags|
+apartments are part of building|building part for apartments|Uneindeutigkeit bzgl. dedizierte Nutzung für Appartments oder nur Existenz von mind. 2|Ableitung aus OSM-Tags: wohl erste Variante|wiki.openstreetmap.org/wiki/Key:building:part
+at intervals|supervised at intervals|gemeintes Feature nicht ersichtlich|Ableitung aus OSM-Tags|
+backrest does not exist|bench backrest does not exist|Uneindeutigkeit Bezugsobjekt|Ableitung aus OSM-Tags|
+backrest exists|bench backrest exists|Uneindeutigkeit Bezugsobjekt|Ableitung aus OSM-Tags|
+button to slow down|automatic door button to slow down|Uneindeutigkeit Bezugsobjekt|Ableitung aus OSM-Tags|
+by 10 degree|incline by 10 degree|Uneindeutigkeit Bezug|Ableitung aus OSM-Tags|
+by 15 percent|incline by 15 percent|Uneindeutigkeit Bezug|Ableitung aus OSM-Tags|
+cabin|cabin room|Abgrenzung zu Gebäude 'cabin' |Ableitung aus OSM-Tags|
+Cement based concrete|cement-based concrete|orthograpische Korrektur||
+certified by the German organisation DEHOGA|accessibility certified by the German organisation DEHOGA|Eindeutigkeit bzgl. Acc., da DEHOGA nicht nur spezifisch dafür bekant|Ableitung aus OSM-Tags|wiki.openstreetmap.org/wiki/Key:dehoga, de.wikipedia.org/wiki/Deutscher_Hotel-_und_Gaststättenverband
+check|checkroom|gemeintes Feature nicht ersichtlich|Ableitung aus OSM-Tags|
+communication|communication room|gemeintes Feature nicht ersichtlich|Ableitung aus OSM-Tags|
+confessional |confessional room|gemeintes Feature nicht ersichtlich|Ableitung aus OSM-Tags|
+designed to restrict or prevent movement across a boundary|barrier designed to restrict or prevent movement across a boundary|gemeintes Feature nicht klar ersichtlich|Ableitung aus OSM-Tags|
+device dehydrates waste into dry matter|toilet device that dehydrates waste into dry matter|Uneindeutigkeit Bezug|Ableitung aus OSM-Tags|
+device that breaks solid materials into smaller pieces by grinding, crushing, or cutting. The aftermath is powdered product, not liquid extract like oil mill|place of craft that breaks solid materials into smaller pieces by grinding, crushing, or cutting. The aftermath is powdered product, not liquid extract like oil mill|"Konsistenz mit anderen Features, denen der OSM-Key ""craft"" zugeordnet ist, die logische Räume, nicht nur einzelne Geräte/Anlagen, implizieren. "|Ableitung aus OSM-Tags|wiki.openstreetmap.org/wiki/Key:craft
+dimension: height (for at least one portion of each type of counter), height of the counter dimension: surface|dimension: height of service desk/counter top|"Vereinfachung, Konsistenz mit ""dimension: depth of service desk/counter top"""|semantische Äquivalenz|
+distance to entrance |distance to entrance (often implicit exit)|Verdeutlichung einer semantischen Komponente||
+distance to closest accessible entrance|distance to closest accessible entrance (often implicit exit)|Verdeutlichung einer semantischen Komponente||
+door handle |door handle exists|gemeintes Feature nicht ersichtlich|Ableitung aus OSM-Tags|
+downwards |downwards incline|gemeintes Feature nicht ersichtlich|Ableitung aus OSM-Tags|
+easy to find / difficult to find / not available|door handle easy to find / difficult to find / not available|gemeintes Feature nicht ersichtlich|Ableitung aus OSM-Tags|
+effluent treatment|effluent treatment room|gemeintes Feature nicht ersichtlich|Ableitung aus OSM-Tags|
+enclosure|enclosure room|"Uneindeutigkeit ""Raum oder anderes?"""|Ableitung aus OSM-Tags|
+factory|factory room|"Uneindeutigkeit ""Raum oder anderes?"""|Ableitung aus OSM-Tags|
+feature is under ground, not visible on the surfacefeature is under ground, not visible on the surface|feature is under ground, not visible on the surface|Korrektur des gedoppelten Namens||
+FON|internet access operator FON|gemeintes Feature nicht ersichtlich|Ableitung aus OSM-Tags|
+food silo|food silo room|"Uneindeutigkeit ""Raum oder anderes?"""|Ableitung aus OSM-Tags|
+forming a large surface|concrete surface|gemeintes Feature nicht ersichtlich|Ableitung aus OSM-Tags|wiki.openstreetmap.org/wiki/Tag:surface%3Dconcrete
+freestanding structure|freestanding wall-like structure|Uneindeutigkeit bezüglich Bauwerksart|Ableitung aus OSM-Tags|
+freestanding structure designed to restrict or prevent movement across a boundary|freestanding fence-like structure designed to restrict or prevent movement across a boundary|Uneindeutigkeit bezüglich Bauwerksart|Ableitung aus OSM-Tags|
+Freifunk|internet access operator Freifunk|gemeintes Feature nicht ersichtlich|Ableitung aus OSM-Tags|
+freight|dedicated for freight|Korrektur der Semantik: Eigenschaft statt phys. Fracht|Ableitung aus OSM-Tags|
+fuel depot|fuel depot room|"Uneindeutigkeit ""Raum oder anderes?"""|Ableitung aus OSM-Tags|
+Generic value for cobblestone|cobblestone surface of outdoor path|Uneindeutigkeit, die zu Dopplung siehe hierunter führt|Ableitung aus AccessibleMaps-Einträgen|
+Generic value for cobblestone [1]|cobblestone surface in front of entrance|Uneindeutigkeit, die zu Dopplung siehe hierüber führt|Ableitung aus AccessibleMaps-Einträgen|
+greenhouse|greenhouse room|"Uneindeutigkeit ""Raum oder anderes?"""|Ableitung aus OSM-Tags|
+ground or floor surface should be level on both sides of the door|ground or floor surface are level on both sides of the door|Wohldefiniertheit der Anforderungen zur akkuraten Nutzung||
+hayloft|hayloft room|"Uneindeutigkeit ""Raum oder anderes?"""|Ableitung aus OSM-Tags|
+headquarters|headquarters room|"Uneindeutigkeit ""Raum oder anderes?"""|Ableitung aus OSM-Tags|
+highway|indoor highway|Uneindeutigkeit indoor/outdoor|Ableitung aus OSM-Tags|
+house|house is building part|gemeintes Feature nicht ersichtlich|Ableitung aus OSM-Tags|
+hovel|hovel room|"Uneindeutigkeit ""Raum oder anderes?"""|Ableitung aus OSM-Tags|
+hunting lodge|hunting lodge room|"Uneindeutigkeit ""Raum oder anderes?"""|Ableitung aus OSM-Tags|
+in feet and inches|width in feet and inches|gemeintes Feature nicht ersichtlich|Ableitung aus OSM-Tags|
+in meter|width in meter|gemeintes Feature nicht ersichtlich|Ableitung aus OSM-Tags|
+in miles|width in miles|gemeintes Feature nicht ersichtlich|Ableitung aus OSM-Tags|
+in the direction of the way|handrail situated relative to direction of way|gemeintes Feature nicht ersichtlich|Ableitung aus OSM-Tags|
+industrial|industrial room|gemeintes Feature nicht ersichtlich|Ableitung aus OSM-Tags|
+interior -> ramp in corridor|ramp in corridor|Vereinfachung|semantische Äquivalenz|
+limited access for persons with walking_disability|limited access for persons with walking disabilities|orthograpische Korrektur||
+location of handrail at stairs: yes, left / yes, right / yes, center / no|location of handrail at stairs relative to direction of way: yes, left / yes, right / yes, center / no|"Bedeutungslosigkeit von ""rechts"" und ""links"" ohne Fixpunkt der Perspektive"||
+main material is rammed_earth|main material is rammed earth|orthographische Korrektur||
+mapped as a separate way in OpenStreetMap|ramp mapped as a separate way in OpenStreetMap|gemeintes Feature nicht ersichtlich|Ableitung aus OSM-Tags|
+media|media room|gemeintes Feature nicht ersichtlich|Ableitung aus OSM-Tags|
+media turning space in front|media room turning space in front|gemeintes Feature nicht ersichtlich|Ableitung aus OSM-Tags|
+menagerie|menagerie room|"Uneindeutigkeit ""Raum oder anderes?"""|Ableitung aus OSM-Tags|
+metal_halide lamp|metal halide lamp|orthographische Korrektur||
+monitoring|monitoring room|gemeintes Feature nicht ersichtlich|Ableitung aus OSM-Tags|
+movement in way direction|conveyor movement in way direction|gemeintes Feature nicht ersichtlich|Ableitung aus OSM-Tags|
+movement opposite to way direction|conveyor movement opposite to way direction|gemeintes Feature nicht ersichtlich|Ableitung aus OSM-Tags|
+NFC|NFC availability|"Uneindeutigkeit ""benötigt / möglich / ... ?"""|Ableitung aus OSM-Tags|
+handrail on the left |handrail on the left relative to direction of the way|"Bedeutungslosigkeit von ""rechts"" und ""links"" ohne Fixpunkt der Perspektive"||
+handrail on the right|handrail on the right relative to direction of the way|"Bedeutungslosigkeit von ""rechts"" und ""links"" ohne Fixpunkt der Perspektive"||
+no handrail on the left |no handrail on the left relative to direction of the way|"Bedeutungslosigkeit von ""rechts"" und ""links"" ohne Fixpunkt der Perspektive"||
+no handrail on the right|no handrail on the right relative to direction of the way|"Bedeutungslosigkeit von ""rechts"" und ""links"" ohne Fixpunkt der Perspektive"||
+not accessible for persons with sitting disabilitys|not accessible for persons with sitting disabilities|orthographische Korrektur||
+not very uniform|step condition is not very uniform|gemeintes Feature nicht ersichtlich|Ableitung aus OSM-Tags|
+building levels / floors|level(s) the feature is situated on|Korrektur der Semantik|Ableitung aus OSM-Tags|wiki.openstreetmap.org/wiki/Key:level
+nursery|nursery room|"Uneindeutigkeit ""Raum oder anderes?"""|Ableitung aus OSM-Tags|
+obstruction at handrail from ramp|obstruction of handrail of a ramp|Verbesserung der Verständlichkeit|Ableitung aus OSM-Tags|
+of a bar or pole pivoted (rotates sidewards to open)|gate consisting of a bar or pole pivoted (rotates sidewards to open)|gemeintes Feature nicht ersichtlich|Ableitung aus OSM-Tags|
+prone to erosion|earth, prone to erosion and often uneven|"Zusammenführung mit ""often uneven"""||
+on which side of the ramp is a handrail|on which side of the ramp is a handrail relative to direction of the way|"Bedeutungslosigkeit von ""rechts"" und ""links"" ohne Fixpunkt der Perspektive"||
+optional button operated|optionally button operated|orthographische Korrektur||
+permission may later be withdrawn|access permission may later be withdrawn|"Uneindeutigkeit ""welche Erlaubnis?"""|Ableitung aus OSM-Tags|
+production|production room|gemeintes Feature nicht ersichtlich|Ableitung aus OSM-Tags|
+reception|reception room|"Uneindeutigkeit ""Raum oder anderes?"""|Ableitung aus OSM-Tags|
+recess|recess room|gemeintes Feature nicht ersichtlich|Ableitung aus OSM-Tags|
+recording studio|recording studio room|"Uneindeutigkeit ""Raum oder anderes?"""|Ableitung aus OSM-Tags|
+refectory|refectory room|"Ersichtlichkeit der Bezeichnung eines Raums ohne Nachschlagen, was ein ""Refektorium"" ist"|Ableitung aus OSM-Tags|
+restaurant|restaurant room|"Uneindeutigkeit ""Raum oder anderes?"""|Ableitung aus OSM-Tags|
+rollability of the floor|rollability on the floor|Verbesserung der Verständlichkeit||
+sauna|sauna room|"Uneindeutigkeit ""Raum oder anderes?"""|Ableitung aus OSM-Tags|
+sculptural technique where the sculpted elements remain attached to a solid background of the same material|fountain sculpture|gemeintes Feature nicht ersichtlich|Ableitung aus OSM-Tags|
+security check|security check room|gemeintes Feature nicht ersichtlich|Ableitung aus OSM-Tags|
+senso triggers camera|sensor triggers camera|orthograpische Korrektur||
+shop for white goods|shop for large electrical items|Verständlichkeit für Nicht-Muttersprachler|Synonyme Bezeichnung|dictionary.cambridge.org/de/worterbuch/englisch/white-goods
+signal|signal room|gemeintes Feature nicht ersichtlich|Ableitung aus OSM-Tags|
+smooth and uniform|step condition is smooth and uniform|gemeintes Feature nicht ersichtlich|Ableitung aus OSM-Tags|
+smooth surface|smooth paving stones|Konkretisierung generischerer Semantik|Ableitung aus OSM-Tags|wiki.openstreetmap.org/wiki/Tag:surface%3Dpaving_stones
+soft ground with low carrying capacity|soft mud ground with low carrying capacity|Konkretisierung generischerer Semantik|Ableitung aus OSM-Tags|wiki.openstreetmap.org/wiki/Tag:surface%3Dmud
+solarium|solarium room|"Uneindeutigkeit ""Raum oder anderes?"""|Ableitung aus OSM-Tags|
+solid pilar(s)|solid pillar(s)|orthographische Korrektur||
+stables|stables room|"Uneindeutigkeit ""Raum oder anderes?"""|Ableitung aus OSM-Tags|
+staff can see visitors from inside|room where staff can see visitors from inside|gemeintes Feature nicht ersichtlich|Ableitung aus OSM-Tags|
+swimming-pool|swimming pool room|gemeintes Feature nicht ersichtlich; orthographische Korrektur|Ableitung aus OSM-Tags|
+terrace|terrace room|"Uneindeutigkeit ""Raum oder anderes?"""|Ableitung aus OSM-Tags|
+terrarium|terrarium room|Korrektur der Semantik: Terrarium != Raum mit Terrarium|Ableitung aus OSM-Tags|
+there is a there a dispenser with hand care cream|there ise a dispenser with hand care cream|orthographische Korrektur||
+transfer aid|transfer aid exists for toilet|Uneindeutigkeit Bezug|Ableitung aus OSM-Tags|
+treatment installation|treatment installation room|"Uneindeutigkeit ""Raum oder anderes?"""|Ableitung aus OSM-Tags|
+tribune|tribune room|"Uneindeutigkeit ""Raum oder anderes?"""|Ableitung aus OSM-Tags|
+turning all the time|automatic door turning all the time|gemeintes Feature nicht ersichtlich|Ableitung aus OSM-Tags|
+upwards|upwards incline|gemeintes Feature nicht ersichtlich|Ableitung aus OSM-Tags|
+used in sport courts|carpet surface as used in sport courts|gemeintes Feature nicht ersichtlich|Ableitung aus OSM-Tags|
+vivarium|vivarium room|"Uneindeutigkeit ""Raum oder anderes?"""|Ableitung aus OSM-Tags|
+washbasin space below depth|washbasin has space below|Verbesserung der Verständlichkeit||
+waste drops into a container which is periodically removed by hand|toilet waste drops into a container which is periodically removed by hand|Uneindeutigkeit Bezug|Ableitung aus OSM-Tags|
+waste falls into a lined or unlined pit|toilet waste falls into a lined or unlined pit|Uneindeutigkeit Bezug|Ableitung aus OSM-Tags|
+waste falls into a lined pit filled with a chemical|toilet waste falls into a lined pit filled with a chemical|Uneindeutigkeit Bezug|Ableitung aus OSM-Tags|
+window display|display window|Korrektur der Semantik: Fenster-Bildschirm != Schaufenster|Ableitung aus OSM-Tags|en.wikipedia.org/wiki/Display_window
+vehicle not accesible for disabled persons|vehicle not accessible for disabled persons|orthographische Korrektur||
+actual interpolation way|actual address interpolation way|gemeintes Feature nicht ersichtlich|Ableitung aus OSM-Tags|
+porter / gatekeeper|has a porter / gatekeeper|Korrektur der Semantik: Besitzen statt Sein|Ableitung aus OSM-Tags|
+at least the first and the last step|at least the first and the last step have a specific contrasting color|gemeintes Feature nicht ersichtlich|Ableitung aus OSM-Tags|
+at night|lit at night|gemeintes Feature nicht ersichtlich|Ableitung aus OSM-Tags|
+beep - beep in most countries|audio traffic signal indicating one can now safely use a crossing|gemeintes Feature nicht ersichtlich|Ableitung aus OSM-Tags|
+both night and day|lit both night and day|gemeintes Feature nicht ersichtlich|Ableitung aus OSM-Tags|
+but not at the same time|unisex toilets to be used by genders alternatingly|gemeintes Feature nicht ersichtlich|Ableitung aus OSM-Tags|
+but not wheelchairs|not accessible with wheelchairs|gemeintes Feature nicht ersichtlich|Ableitung aus OSM-Tags|
+changing direction|conveyor belt that can change direction|Uneindeutigkeit Bezug|Ableitung aus OSM-Tags|
+common on tennis courts|clay surface, common on tennis courts|gemeintes Feature nicht ersichtlich|Ableitung aus OSM-Tags|
+different forms and sizes|steps with different forms and sizes|Uneindeutigkeit Bezug|Ableitung aus OSM-Tags|
+different sizes and may be slightly tilted|steps with different sizes and may be slightly tilted|Uneindeutigkeit Bezug|Ableitung aus OSM-Tags|
+furnitur type: dangerous / orientation point|furniture type: dangerous / orientation point|orthographische Korrektur||
+hop focused on selling weapons like knives, guns, etc.|shop focused on selling weapons like knives, guns, etc.|orthographische Korrektur||
+hop selling consumer pyrotechnics: fireworks, firecrackers, sparklers etc.|shop selling consumer pyrotechnics: fireworks, firecrackers, sparklers etc.|orthographische Korrektur||
+hop selling products for agricultural use, such as pesticides, seeds, animal feed, etc.|shop selling products for agricultural use, such as pesticides, seeds, animal feed, etc.|orthographische Korrektur||
+horse|horse stables room|Korrektur der Semantik|Ableitung aus OSM-Tags|
+i.e. mainly/exclusively for pedestrians|highway mainly/exclusively for pedestrians|Uneindeutigkeit Bezug|Ableitung aus OSM-Tags|
+number of floors|number of floors (semantic depends on chosen tag)|Uneindeutigkeit verdeutlichen|Ableitung aus OSM-Tags|
+small|small building|Korrektur der Semantik|Ableitung aus OSM-Tags|
+some may still use it|private vehicle access, some may still use it|gemeintes Feature nicht ersichtlich|Ableitung aus OSM-Tags|
+the buliding has 8 residential units|the building has 8 residential units|orthographische Korrektur||
+warning bell|warning bell crossing|Korrektur der Semantik|Ableitung aus OSM-Tags|

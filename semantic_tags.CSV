@@ -1,0 +1,39 @@
+Semantic Tag|Bedeutung|Vorkommen
+ACC|Zugangsberechtigungen|indoor, outdoor
+ACCY|Informationen der expliziten, generischen Barrierefreiheit|indoor
+AREA|Flächenfeatures|indoor
+ADDR|Adressdaten|indoor, buildings, outdoor
+ADV|Features der Werbung|indoor, outdoor
+AUDIO|Audio-I/O|indoor
+BAR|Barrieren für alle|indoor, outdoor
+CORR|Korridore|indoor
+CTRL|Steuerung aller Art|indoor
+DOOR|Türen|indoor
+ELV|Fahrstühle und Plattformlifts|indoor
+EMG|Features für Notfälle|indoor, buildings, outdoor
+ENTR|Gebäudeeingänge|buildings
+EXIT|Gebäudeausgänge|buildings
+HEAT|Beheizung|indoor
+ICL|Neigungen|indoor
+LIGHT|Lichtquellen|indoor, outdoor
+LVL|Stockwerksinformationen|buildings
+MAT|Materialien|indoor 
+MED|Medizinische Versorgung auch neben Notfällen|indoor
+NAV|Features / Eigenschaften, die der Navigation dienen können|indoor, buildings
+OBJ|generische Objekte für keine andere Kategorie|indoor, buildings, outdoor
+PED|Informationen für Fußgänger im Außenbereich|outdoor
+POS|Features, die der Positionierung dienen können|indoor, buildings, outdoor
+PRK|Parkplätze|indoor
+PROP|generische Eigenschaften ohne Kategorie, z.B. Farben|indoor, buildings
+PRT|Gebäudeteile (als logische Räume)|buildings
+RD-CON|Straßenbeschaffenheit|outdoor
+ROOM|Räume|indoor
+SERV|(Kontext von) Dienstleistungen im weiteren Sinne, z.B. auch Wasserspender o. Internetverfügbarkeit|indoor, outdoor
+SURF|Oberflächenbeschaffenheit|indoor, buildings, outdoor
+STR|Treppen, Treppenlifts, Stufen|indoor
+STRUCT|architektonische Strukturmerkmale, z.B. Fenster|indoor, buildings, outdoor
+TRS|ÖPNV|buildings, outdoor
+TYP|Gebäudetypen|buildings
+WC|Toiletten|indoor
+WARN|Gefahrenwarnungen|indoor
+WTB|(way to building) Outdoor-Informationen assoziiert mit einem Gebäude im Sinne von Navigation dahin|buildings
